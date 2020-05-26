@@ -1,0 +1,156 @@
+
+------------------------------------------------------------------------------
+the result of svhn svhn_model CW is: 
+NC(0.1): 1.0  activate_num: 57610  total_num: 57610 
+NC(0.3): 1.0  activate_num: 57610  total_num: 57610 
+NC(0.5): 0.7816698489845513  activate_num: 45032  total_num: 57610 
+NC(0.7): 0.5880229126887693  activate_num: 33876  total_num: 57610 
+NC(0.9): 0.018156570039923624  activate_num: 1046  total_num: 57610 
+TKNC: 0.16934559972227045  pattern_num: 9756  total_num: 57610 
+TKNP: 24987 
+KMNC: 0.9766307932650582  covered_num: 562637  total_num: 576100 
+NBC: 0.41511022391945845  l_covered_num: 23662  u_covered_num: 24167 
+SNAC: 0.4194931435514668 
+
+------------------------------------------------------------------------------
+the result of svhn svhn_model PGD is: 
+NC(0.1): 1.0  activate_num: 57610  total_num: 57610 
+NC(0.3): 1.0  activate_num: 57610  total_num: 57610 
+NC(0.5): 0.9985592779031418  activate_num: 57527  total_num: 57610 
+NC(0.7): 0.595764624197188  activate_num: 34322  total_num: 57610 
+NC(0.9): 0.026002430133657353  activate_num: 1498  total_num: 57610 
+TKNC: 0.16787016143030725  pattern_num: 9671  total_num: 57610 
+TKNP: 24153 
+KMNC: 0.9689741364346468  covered_num: 558226  total_num: 576100 
+NBC: 0.35657003992362435  l_covered_num: 20370  u_covered_num: 20714 
+SNAC: 0.3595556327026558 
+
+------------------------------------------------------------------------------
+the result of svhn svhn_first CW is: 
+NC(0.1): 1.0  activate_num: 57610  total_num: 57610 
+NC(0.3): 1.0  activate_num: 57610  total_num: 57610 
+NC(0.5): 1.0  activate_num: 57610  total_num: 57610 
+NC(0.7): 0.41022391945842734  activate_num: 23633  total_num: 57610 
+NC(0.9): 0.01909390730775907  activate_num: 1100  total_num: 57610 
+TKNC: 0.03711161256726263  pattern_num: 2138  total_num: 57610 
+TKNP: 25189 
+KMNC: 0.9897986460683909  covered_num: 570223  total_num: 576100 
+NBC: 0.5771220274257941  l_covered_num: 33749  u_covered_num: 32747 
+SNAC: 0.5684256205519875 
+
+------------------------------------------------------------------------------
+the result of svhn svhn_first PGD is: 
+NC(0.1): 1.0  activate_num: 57610  total_num: 57610 
+NC(0.3): 1.0  activate_num: 57610  total_num: 57610 
+NC(0.5): 1.0  activate_num: 57610  total_num: 57610 
+NC(0.7): 0.41414684950529423  activate_num: 23859  total_num: 57610 
+NC(0.9): 0.0229474049644159  activate_num: 1322  total_num: 57610 
+TKNC: 0.03669501822600243  pattern_num: 2114  total_num: 57610 
+TKNP: 24513 
+KMNC: 0.9849158132268704  covered_num: 567410  total_num: 576100 
+NBC: 0.4898628710293352  l_covered_num: 29145  u_covered_num: 27297 
+SNAC: 0.47382398889081756 
+
+------------------------------------------------------------------------------
+the result of svhn svhn_second CW is: 
+NC(0.1): 1.0  activate_num: 32778  total_num: 32778 
+NC(0.3): 1.0  activate_num: 32778  total_num: 32778 
+NC(0.5): 1.0  activate_num: 32778  total_num: 32778 
+NC(0.7): 0.48627127951674903  activate_num: 15939  total_num: 32778 
+NC(0.9): 0.029684544511562633  activate_num: 973  total_num: 32778 
+TKNC: 0.06132161815852096  pattern_num: 2010  total_num: 32778 
+TKNP: 23387 
+KMNC: 0.988785160778571  covered_num: 324104  total_num: 327780 
+NBC: 0.5282659100616267  l_covered_num: 17467  u_covered_num: 17164 
+SNAC: 0.5236439074989322 
+
+------------------------------------------------------------------------------
+the result of svhn svhn_second PGD is: 
+NC(0.1): 1.0  activate_num: 32778  total_num: 32778 
+NC(0.3): 1.0  activate_num: 32778  total_num: 32778 
+NC(0.5): 1.0  activate_num: 32778  total_num: 32778 
+NC(0.7): 0.4583867228018793  activate_num: 15025  total_num: 32778 
+NC(0.9): 0.029440478369638173  activate_num: 965  total_num: 32778 
+TKNC: 0.06055891146500702  pattern_num: 1985  total_num: 32778 
+TKNP: 21906 
+KMNC: 0.9831350295930197  covered_num: 322252  total_num: 327780 
+NBC: 0.4458478247605101  l_covered_num: 14843  u_covered_num: 14385 
+SNAC: 0.4388614314479224 
+
+------------------------------------------------------------------------------
+the result of svhn adv_svhn_model CW is: 
+NC(0.1): 1.0  activate_num: 57610  total_num: 57610 
+NC(0.3): 1.0  activate_num: 57610  total_num: 57610 
+NC(0.5): 0.8150321124804721  activate_num: 46954  total_num: 57610 
+NC(0.7): 0.5678528033327548  activate_num: 32714  total_num: 57610 
+NC(0.9): 0.004808193022044784  activate_num: 277  total_num: 57610 
+TKNC: 0.10269050512063878  pattern_num: 5916  total_num: 57610 
+TKNP: 22411 
+KMNC: 0.9782798125325465  covered_num: 563587  total_num: 576100 
+NBC: 0.39771741017184514  l_covered_num: 22683  u_covered_num: 23142 
+SNAC: 0.4017010935601458 
+
+------------------------------------------------------------------------------
+the result of svhn adv_svhn_model PGD is: 
+NC(0.1): 1.0  activate_num: 57610  total_num: 57610 
+NC(0.3): 1.0  activate_num: 57610  total_num: 57610 
+NC(0.5): 0.8333275473008158  activate_num: 48008  total_num: 57610 
+NC(0.7): 0.6021003298038535  activate_num: 34687  total_num: 57610 
+NC(0.9): 0.013400451310536365  activate_num: 772  total_num: 57610 
+TKNC: 0.10119770873112306  pattern_num: 5830  total_num: 57610 
+TKNP: 23606 
+KMNC: 0.9759763929873286  covered_num: 562260  total_num: 576100 
+NBC: 0.36251518833535845  l_covered_num: 19837  u_covered_num: 21932 
+SNAC: 0.3806977955216108 
+
+------------------------------------------------------------------------------
+the result of svhn adv_svhn_first CW is: 
+NC(0.1): 1.0  activate_num: 57610  total_num: 57610 
+NC(0.3): 1.0  activate_num: 57610  total_num: 57610 
+NC(0.5): 0.9935948620031244  activate_num: 57241  total_num: 57610 
+NC(0.7): 0.7678701614303073  activate_num: 44237  total_num: 57610 
+NC(0.9): 0.015761152577677486  activate_num: 908  total_num: 57610 
+TKNC: 0.06045825377538622  pattern_num: 3483  total_num: 57610 
+TKNP: 21733 
+KMNC: 0.9831800034716195  covered_num: 566410  total_num: 576100 
+NBC: 0.4008071515361916  l_covered_num: 23581  u_covered_num: 22600 
+SNAC: 0.3922930046866863 
+
+------------------------------------------------------------------------------
+the result of svhn adv_svhn_first PGD is: 
+NC(0.1): 1.0  activate_num: 57610  total_num: 57610 
+NC(0.3): 1.0  activate_num: 57610  total_num: 57610 
+NC(0.5): 1.0  activate_num: 57610  total_num: 57610 
+NC(0.7): 0.806248915118903  activate_num: 46448  total_num: 57610 
+NC(0.9): 0.06825203957646242  activate_num: 3932  total_num: 57610 
+TKNC: 0.06103107099461899  pattern_num: 3516  total_num: 57610 
+TKNP: 23148 
+KMNC: 0.9813469883700746  covered_num: 565354  total_num: 576100 
+NBC: 0.4100243013365735  l_covered_num: 23447  u_covered_num: 23796 
+SNAC: 0.4130532893594862 
+
+------------------------------------------------------------------------------
+the result of svhn adv_svhn_second CW is: 
+NC(0.1): 1.0  activate_num: 32778  total_num: 32778 
+NC(0.3): 1.0  activate_num: 32778  total_num: 32778 
+NC(0.5): 0.9710171456464702  activate_num: 31828  total_num: 32778 
+NC(0.7): 0.843431569955458  activate_num: 27646  total_num: 32778 
+NC(0.9): 0.060284337055341995  activate_num: 1976  total_num: 32778 
+TKNC: 0.06717920556470804  pattern_num: 2202  total_num: 32778 
+TKNP: 20859 
+KMNC: 0.9913142961742633  covered_num: 324933  total_num: 327780 
+NBC: 0.43959362987369577  l_covered_num: 14533  u_covered_num: 14285 
+SNAC: 0.4358106046738666 
+
+------------------------------------------------------------------------------
+the result of svhn adv_svhn_second PGD is: 
+NC(0.1): 1.0  activate_num: 32778  total_num: 32778 
+NC(0.3): 1.0  activate_num: 32778  total_num: 32778 
+NC(0.5): 0.9683324180853011  activate_num: 31740  total_num: 32778 
+NC(0.7): 0.8411129416071755  activate_num: 27570  total_num: 32778 
+NC(0.9): 0.05906400634571969  activate_num: 1936  total_num: 32778 
+TKNC: 0.0644639697357984  pattern_num: 2113  total_num: 32778 
+TKNP: 21835 
+KMNC: 0.9895997315272439  covered_num: 324371  total_num: 327780 
+NBC: 0.5257184697052901  l_covered_num: 16274  u_covered_num: 18190 
+SNAC: 0.5549453902007444 

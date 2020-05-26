@@ -1,0 +1,156 @@
+
+------------------------------------------------------------------------------
+the result of mnist lenet1 CW is: 
+NC(0.1): 1.0  activate_num: 2314  total_num: 2314 
+NC(0.3): 1.0  activate_num: 2314  total_num: 2314 
+NC(0.5): 0.986171132238548  activate_num: 2282  total_num: 2314 
+NC(0.7): 0.6607605877268798  activate_num: 1529  total_num: 2314 
+NC(0.9): 0.2999135695764909  activate_num: 694  total_num: 2314 
+TKNC: 0.4299913569576491  pattern_num: 995  total_num: 2314 
+TKNP: 8162 
+KMNC: 0.963828867761452  covered_num: 22303  total_num: 23140 
+NBC: 0.23530682800345723  l_covered_num: 513  u_covered_num: 576 
+SNAC: 0.24891961970613655 
+
+------------------------------------------------------------------------------
+the result of mnist lenet1 PGD is: 
+NC(0.1): 1.0  activate_num: 2314  total_num: 2314 
+NC(0.3): 1.0  activate_num: 2314  total_num: 2314 
+NC(0.5): 1.0  activate_num: 2314  total_num: 2314 
+NC(0.7): 0.6443388072601556  activate_num: 1491  total_num: 2314 
+NC(0.9): 0.22082973206568712  activate_num: 511  total_num: 2314 
+TKNC: 0.45073465859982714  pattern_num: 1043  total_num: 2314 
+TKNP: 8025 
+KMNC: 0.9450734658599828  covered_num: 21869  total_num: 23140 
+NBC: 0.10198789974070872  l_covered_num: 242  u_covered_num: 230 
+SNAC: 0.09939498703543648 
+
+------------------------------------------------------------------------------
+the result of mnist lenet4 CW is: 
+NC(0.1): 1.0  activate_num: 3466  total_num: 3466 
+NC(0.3): 1.0  activate_num: 3466  total_num: 3466 
+NC(0.5): 0.9930755914598961  activate_num: 3442  total_num: 3466 
+NC(0.7): 0.7642815926139642  activate_num: 2649  total_num: 3466 
+NC(0.9): 0.09636468551644548  activate_num: 334  total_num: 3466 
+TKNC: 0.3366993652625505  pattern_num: 1167  total_num: 3466 
+TKNP: 7591 
+KMNC: 0.9654068090017311  covered_num: 33461  total_num: 34660 
+NBC: 0.24812463935372187  l_covered_num: 852  u_covered_num: 868 
+SNAC: 0.2504327755337565 
+
+------------------------------------------------------------------------------
+the result of mnist lenet4 PGD is: 
+NC(0.1): 1.0  activate_num: 3466  total_num: 3466 
+NC(0.3): 1.0  activate_num: 3466  total_num: 3466 
+NC(0.5): 1.0  activate_num: 3466  total_num: 3466 
+NC(0.7): 0.7386035776110791  activate_num: 2560  total_num: 3466 
+NC(0.9): 0.08424697057126371  activate_num: 292  total_num: 3466 
+TKNC: 0.3739180611656088  pattern_num: 1296  total_num: 3466 
+TKNP: 8161 
+KMNC: 0.9418061165608771  covered_num: 32643  total_num: 34660 
+NBC: 0.17671667628390075  l_covered_num: 612  u_covered_num: 613 
+SNAC: 0.1768609347951529 
+
+------------------------------------------------------------------------------
+the result of mnist lenet5 CW is: 
+NC(0.1): 1.0  activate_num: 3466  total_num: 3466 
+NC(0.3): 1.0  activate_num: 3466  total_num: 3466 
+NC(0.5): 0.9893248701673398  activate_num: 3429  total_num: 3466 
+NC(0.7): 0.8023658395845354  activate_num: 2781  total_num: 3466 
+NC(0.9): 0.1070398153491056  activate_num: 371  total_num: 3466 
+TKNC: 0.3231390652048471  pattern_num: 1120  total_num: 3466 
+TKNP: 7553 
+KMNC: 0.9663877668782458  covered_num: 33495  total_num: 34660 
+NBC: 0.2800057703404501  l_covered_num: 950  u_covered_num: 991 
+SNAC: 0.2859203693017888 
+
+------------------------------------------------------------------------------
+the result of mnist lenet5 PGD is: 
+NC(0.1): 1.0  activate_num: 3466  total_num: 3466 
+NC(0.3): 1.0  activate_num: 3466  total_num: 3466 
+NC(0.5): 1.0  activate_num: 3466  total_num: 3466 
+NC(0.7): 0.7919792267743797  activate_num: 2745  total_num: 3466 
+NC(0.9): 0.07991921523369878  activate_num: 277  total_num: 3466 
+TKNC: 0.39844200807847663  pattern_num: 1381  total_num: 3466 
+TKNP: 8557 
+KMNC: 0.9507212925562608  covered_num: 32952  total_num: 34660 
+NBC: 0.19518176572417772  l_covered_num: 541  u_covered_num: 812 
+SNAC: 0.23427582227351415 
+
+------------------------------------------------------------------------------
+the result of mnist adv_lenet1 CW is: 
+NC(0.1): 0.9939498703543648  activate_num: 2300  total_num: 2314 
+NC(0.3): 0.9917891097666378  activate_num: 2295  total_num: 2314 
+NC(0.5): 0.9515989628349178  activate_num: 2202  total_num: 2314 
+NC(0.7): 0.4848746758859118  activate_num: 1122  total_num: 2314 
+NC(0.9): 0.24200518582541056  activate_num: 560  total_num: 2314 
+TKNC: 0.21348314606741572  pattern_num: 494  total_num: 2314 
+TKNP: 8552 
+KMNC: 0.9444252376836646  covered_num: 21854  total_num: 23140 
+NBC: 0.15730337078651685  l_covered_num: 356  u_covered_num: 372 
+SNAC: 0.16076058772687987 
+
+------------------------------------------------------------------------------
+the result of mnist adv_lenet1 PGD is: 
+NC(0.1): 1.0  activate_num: 2314  total_num: 2314 
+NC(0.3): 0.9922212618841832  activate_num: 2296  total_num: 2314 
+NC(0.5): 0.958513396715644  activate_num: 2218  total_num: 2314 
+NC(0.7): 0.4848746758859118  activate_num: 1122  total_num: 2314 
+NC(0.9): 0.2407087294727744  activate_num: 557  total_num: 2314 
+TKNC: 0.19187554019014694  pattern_num: 444  total_num: 2314 
+TKNP: 8850 
+KMNC: 0.9684961106309421  covered_num: 22411  total_num: 23140 
+NBC: 0.10350043215211754  l_covered_num: 194  u_covered_num: 285 
+SNAC: 0.12316335350043216 
+
+------------------------------------------------------------------------------
+the result of mnist adv_lenet4 CW is: 
+NC(0.1): 1.0  activate_num: 3466  total_num: 3466 
+NC(0.3): 1.0  activate_num: 3466  total_num: 3466 
+NC(0.5): 0.9717253317945759  activate_num: 3368  total_num: 3466 
+NC(0.7): 0.8107328332371609  activate_num: 2810  total_num: 3466 
+NC(0.9): 0.30496249278707444  activate_num: 1057  total_num: 3466 
+TKNC: 0.10761684939411426  pattern_num: 373  total_num: 3466 
+TKNP: 7482 
+KMNC: 0.9399019042123485  covered_num: 32577  total_num: 34660 
+NBC: 0.1984997114829775  l_covered_num: 573  u_covered_num: 803 
+SNAC: 0.2316791690709752 
+
+------------------------------------------------------------------------------
+the result of mnist adv_lenet4 PGD is: 
+NC(0.1): 1.0  activate_num: 3466  total_num: 3466 
+NC(0.3): 1.0  activate_num: 3466  total_num: 3466 
+NC(0.5): 0.964800923254472  activate_num: 3344  total_num: 3466 
+NC(0.7): 0.7795729948066936  activate_num: 2702  total_num: 3466 
+NC(0.9): 0.16358915175995384  activate_num: 567  total_num: 3466 
+TKNC: 0.11800346220427005  pattern_num: 409  total_num: 3466 
+TKNP: 8248 
+KMNC: 0.9435660703981535  covered_num: 32704  total_num: 34660 
+NBC: 0.0878534333525678  l_covered_num: 177  u_covered_num: 432 
+SNAC: 0.12463935372186959 
+
+------------------------------------------------------------------------------
+the result of mnist adv_lenet5 CW is: 
+NC(0.1): 0.9913444893248702  activate_num: 3436  total_num: 3466 
+NC(0.3): 0.9293133294864397  activate_num: 3221  total_num: 3466 
+NC(0.5): 0.6304096941719561  activate_num: 2185  total_num: 3466 
+NC(0.7): 0.16330063473744952  activate_num: 566  total_num: 3466 
+NC(0.9): 0.16156953260242354  activate_num: 560  total_num: 3466 
+TKNC: 0.1457010963646855  pattern_num: 505  total_num: 3466 
+TKNP: 9027 
+KMNC: 0.9470282746682054  covered_num: 32824  total_num: 34660 
+NBC: 0.15983843046739757  l_covered_num: 451  u_covered_num: 657 
+SNAC: 0.18955568378534335 
+
+------------------------------------------------------------------------------
+the result of mnist adv_lenet5 PGD is: 
+NC(0.1): 1.0  activate_num: 3466  total_num: 3466 
+NC(0.3): 0.9440276976341604  activate_num: 3272  total_num: 3466 
+NC(0.5): 0.6350259665320254  activate_num: 2201  total_num: 3466 
+NC(0.7): 0.16358915175995384  activate_num: 567  total_num: 3466 
+NC(0.9): 0.15983843046739757  activate_num: 554  total_num: 3466 
+TKNC: 0.13906520484708598  pattern_num: 482  total_num: 3466 
+TKNP: 9188 
+KMNC: 0.9611656087709175  covered_num: 33314  total_num: 34660 
+NBC: 0.10199076745527987  l_covered_num: 210  u_covered_num: 497 
+SNAC: 0.1433929601846509 

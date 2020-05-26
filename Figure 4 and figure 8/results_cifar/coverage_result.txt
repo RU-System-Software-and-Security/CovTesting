@@ -1,0 +1,104 @@
+
+------------------------------------------------------------------------------
+the result of cifar vgg16 CW is: 
+NC(0.1): 1.0  activate_num: 65546  total_num: 65546 
+NC(0.3): 1.0  activate_num: 65546  total_num: 65546 
+NC(0.5): 0.8975528636377506  activate_num: 58831  total_num: 65546 
+NC(0.7): 0.2159552070301773  activate_num: 14155  total_num: 65546 
+NC(0.9): 0.001388337961126537  activate_num: 91  total_num: 65546 
+TKNC: 0.07472614652305251  pattern_num: 4898  total_num: 65546 
+TKNP: 8715 
+KMNC: 0.6972828242760809  covered_num: 457041  total_num: 655460 
+NBC: 0.08510816830927898  l_covered_num: 8715  u_covered_num: 2442 
+SNAC: 0.03725627803374729 
+
+------------------------------------------------------------------------------
+the result of cifar vgg16 PGD is: 
+NC(0.1): 1.0  activate_num: 65546  total_num: 65546 
+NC(0.3): 1.0  activate_num: 65546  total_num: 65546 
+NC(0.5): 1.0  activate_num: 65546  total_num: 65546 
+NC(0.7): 0.21560430842461784  activate_num: 14132  total_num: 65546 
+NC(0.9): 0.013730815000152564  activate_num: 900  total_num: 65546 
+TKNC: 0.062429438867360326  pattern_num: 4092  total_num: 65546 
+TKNP: 9591 
+KMNC: 0.9541863729289354  covered_num: 625431  total_num: 655460 
+NBC: 0.1830546486437006  l_covered_num: 12089  u_covered_num: 11908 
+SNAC: 0.18167393891312972 
+
+------------------------------------------------------------------------------
+the result of cifar resnet20 CW is: 
+NC(0.1): 1.0  activate_num: 16394  total_num: 16394 
+NC(0.3): 1.0  activate_num: 16394  total_num: 16394 
+NC(0.5): 1.0  activate_num: 16394  total_num: 16394 
+NC(0.7): 0.5233622056850067  activate_num: 8580  total_num: 16394 
+NC(0.9): 0.03775771623764792  activate_num: 619  total_num: 16394 
+TKNC: 0.16847627180675856  pattern_num: 2762  total_num: 16394 
+TKNP: 8581 
+KMNC: 0.6984872514334513  covered_num: 114510  total_num: 163940 
+NBC: 0.04986580456264487  l_covered_num: 1145  u_covered_num: 490 
+SNAC: 0.029888983774551667 
+
+------------------------------------------------------------------------------
+the result of cifar resnet20 PGD is: 
+NC(0.1): 1.0  activate_num: 16394  total_num: 16394 
+NC(0.3): 1.0  activate_num: 16394  total_num: 16394 
+NC(0.5): 1.0  activate_num: 16394  total_num: 16394 
+NC(0.7): 0.38989874344272296  activate_num: 6392  total_num: 16394 
+NC(0.9): 0.03507380749054532  activate_num: 575  total_num: 16394 
+TKNC: 0.16072953519580335  pattern_num: 2635  total_num: 16394 
+TKNP: 8990 
+KMNC: 0.9265950957667439  covered_num: 151906  total_num: 163940 
+NBC: 0.15670367207514946  l_covered_num: 2815  u_covered_num: 2323 
+SNAC: 0.14169818226180309 
+
+------------------------------------------------------------------------------
+the result of cifar adv_vgg16 CW is: 
+NC(0.1): 1.0  activate_num: 65546  total_num: 65546 
+NC(0.3): 1.0  activate_num: 65546  total_num: 65546 
+NC(0.5): 0.939218258932658  activate_num: 61562  total_num: 65546 
+NC(0.7): 0.1860830561742898  activate_num: 12197  total_num: 65546 
+NC(0.9): 0.002990266377811003  activate_num: 196  total_num: 65546 
+TKNC: 0.05971378878955238  pattern_num: 3914  total_num: 65546 
+TKNP: 8569 
+KMNC: 0.6788728526530986  covered_num: 444974  total_num: 655460 
+NBC: 0.07404723400360053  l_covered_num: 7127  u_covered_num: 2580 
+SNAC: 0.03936166966710402 
+
+------------------------------------------------------------------------------
+the result of cifar adv_vgg16 PGD is: 
+NC(0.1): 1.0  activate_num: 65546  total_num: 65546 
+NC(0.3): 1.0  activate_num: 65546  total_num: 65546 
+NC(0.5): 1.0  activate_num: 65546  total_num: 65546 
+NC(0.7): 0.1690110761907668  activate_num: 11078  total_num: 65546 
+NC(0.9): 0.01411222652793458  activate_num: 925  total_num: 65546 
+TKNC: 0.059423916028438044  pattern_num: 3895  total_num: 65546 
+TKNP: 9600 
+KMNC: 0.9645195740396058  covered_num: 632204  total_num: 655460 
+NBC: 0.23031153693589235  l_covered_num: 15233  u_covered_num: 14959 
+SNAC: 0.22822140176364691 
+
+------------------------------------------------------------------------------
+the result of cifar adv_resnet20 CW is: 
+NC(0.1): 1.0  activate_num: 16394  total_num: 16394 
+NC(0.3): 1.0  activate_num: 16394  total_num: 16394 
+NC(0.5): 0.9461388312797365  activate_num: 15511  total_num: 16394 
+NC(0.7): 0.42796144931072344  activate_num: 7016  total_num: 16394 
+NC(0.9): 0.026351104062461876  activate_num: 432  total_num: 16394 
+TKNC: 0.13761132121507869  pattern_num: 2256  total_num: 16394 
+TKNP: 9449 
+KMNC: 0.6502317921190679  covered_num: 106599  total_num: 163940 
+NBC: 0.07618640966207149  l_covered_num: 1085  u_covered_num: 1413 
+SNAC: 0.08619006953763572 
+
+------------------------------------------------------------------------------
+the result of cifar adv_resnet20 PGD is: 
+NC(0.1): 1.0  activate_num: 16394  total_num: 16394 
+NC(0.3): 1.0  activate_num: 16394  total_num: 16394 
+NC(0.5): 1.0  activate_num: 16394  total_num: 16394 
+NC(0.7): 0.4824935952177626  activate_num: 7910  total_num: 16394 
+NC(0.9): 0.03348786141271197  activate_num: 549  total_num: 16394 
+TKNC: 0.2126387702818104  pattern_num: 3486  total_num: 16394 
+TKNP: 9230 
+KMNC: 0.957368549469318  covered_num: 156951  total_num: 163940 
+NBC: 0.19976820788093205  l_covered_num: 3097  u_covered_num: 3453 
+SNAC: 0.21062583872148347 
