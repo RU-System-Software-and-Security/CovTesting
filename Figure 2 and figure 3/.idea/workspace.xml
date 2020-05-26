@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="acaf6314-5411-46bf-9e76-f3409f28e0d0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YdrqWI9BC7JTP4fiE7p46R8dbU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.retrain_robustness">
+    <configuration name="compare_coverage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="new_criteria" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/compare_coverage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="exchange_testing_dataset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="new_criteria" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exchange_testing_dataset.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fuzzing_testset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="new_criteria" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fuzzing_testset.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="retrain_robustness" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="new_criteria" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/retrain_robustness.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="show_pictures" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="new_criteria" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/show_pictures.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.retrain_robustness" />
+        <item itemvalue="Python.compare_coverage" />
+        <item itemvalue="Python.show_pictures" />
+        <item itemvalue="Python.exchange_testing_dataset" />
+        <item itemvalue="Python.fuzzing_testset" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="acaf6314-5411-46bf-9e76-f3409f28e0d0" name="Default Changelist" comment="" />
+      <created>1583283502296</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583283502296</updated>
+      <workItem from="1583283504714" duration="16950000" />
+      <workItem from="1583336882128" duration="549000" />
+      <workItem from="1583338200226" duration="48000" />
+      <workItem from="1583357751674" duration="6846000" />
+      <workItem from="1583464246409" duration="3342000" />
+      <workItem from="1589933798154" duration="866000" />
+      <workItem from="1590020679525" duration="14000" />
+      <workItem from="1590020701260" duration="10000" />
+      <workItem from="1590204632107" duration="411000" />
+      <workItem from="1590444291707" duration="1329000" />
+      <workItem from="1590454081808" duration="606000" />
+      <workItem from="1590454806672" duration="348000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="756" y="248" width="424" height="492" key="FileChooserDialogImpl" timestamp="1590020709641">
+      <screen x="67" y="27" width="1853" height="1052" />
+    </state>
+    <state x="756" y="248" width="424" height="492" key="FileChooserDialogImpl/67.27.1853.1052@67.27.1853.1052" timestamp="1590020709641" />
+    <state width="1611" height="283" key="GridCell.Tab.0.bottom" timestamp="1590455122972">
+      <screen x="67" y="27" width="1853" height="1052" />
+    </state>
+    <state width="1611" height="283" key="GridCell.Tab.0.bottom/67.27.1853.1052/1920.0.1920.1080@67.27.1853.1052" timestamp="1590455122972" />
+    <state width="1611" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1052@67.27.1853.1052" timestamp="1589938306786" />
+    <state width="1611" height="283" key="GridCell.Tab.0.center" timestamp="1590455122972">
+      <screen x="67" y="27" width="1853" height="1052" />
+    </state>
+    <state width="1611" height="283" key="GridCell.Tab.0.center/67.27.1853.1052/1920.0.1920.1080@67.27.1853.1052" timestamp="1590455122972" />
+    <state width="1611" height="278" key="GridCell.Tab.0.center/67.27.1853.1052@67.27.1853.1052" timestamp="1589938306785" />
+    <state width="1611" height="283" key="GridCell.Tab.0.left" timestamp="1590455122972">
+      <screen x="67" y="27" width="1853" height="1052" />
+    </state>
+    <state width="1611" height="283" key="GridCell.Tab.0.left/67.27.1853.1052/1920.0.1920.1080@67.27.1853.1052" timestamp="1590455122972" />
+    <state width="1611" height="278" key="GridCell.Tab.0.left/67.27.1853.1052@67.27.1853.1052" timestamp="1589938306785" />
+    <state width="1611" height="283" key="GridCell.Tab.0.right" timestamp="1590455122972">
+      <screen x="67" y="27" width="1853" height="1052" />
+    </state>
+    <state width="1611" height="283" key="GridCell.Tab.0.right/67.27.1853.1052/1920.0.1920.1080@67.27.1853.1052" timestamp="1590455122972" />
+    <state width="1611" height="278" key="GridCell.Tab.0.right/67.27.1853.1052@67.27.1853.1052" timestamp="1589938306785" />
+    <state width="1611" height="334" key="GridCell.Tab.1.bottom" timestamp="1583296383187">
+      <screen x="67" y="27" width="1853" height="1052" />
+    </state>
+    <state width="1611" height="334" key="GridCell.Tab.1.bottom/67.27.1853.1052@67.27.1853.1052" timestamp="1583296383187" />
+    <state width="1611" height="334" key="GridCell.Tab.1.center" timestamp="1583296383187">
+      <screen x="67" y="27" width="1853" height="1052" />
+    </state>
+    <state width="1611" height="334" key="GridCell.Tab.1.center/67.27.1853.1052@67.27.1853.1052" timestamp="1583296383187" />
+    <state width="1611" height="334" key="GridCell.Tab.1.left" timestamp="1583296383187">
+      <screen x="67" y="27" width="1853" height="1052" />
+    </state>
+    <state width="1611" height="334" key="GridCell.Tab.1.left/67.27.1853.1052@67.27.1853.1052" timestamp="1583296383187" />
+    <state width="1611" height="334" key="GridCell.Tab.1.right" timestamp="1583296383187">
+      <screen x="67" y="27" width="1853" height="1052" />
+    </state>
+    <state width="1611" height="334" key="GridCell.Tab.1.right/67.27.1853.1052@67.27.1853.1052" timestamp="1583296383187" />
+    <state x="498" y="180" width="1016" height="738" key="SettingsEditor" timestamp="1583283528991">
+      <screen x="67" y="27" width="1853" height="1052" />
+    </state>
+    <state x="498" y="180" width="1016" height="738" key="SettingsEditor/67.27.1853.1052@67.27.1853.1052" timestamp="1583283528991" />
+    <state x="623" y="199" width="683" height="772" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1583295610317">
+      <screen x="67" y="27" width="1853" height="1052" />
+    </state>
+    <state x="623" y="199" width="683" height="772" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.1853.1052@67.27.1853.1052" timestamp="1583295610317" />
+    <state x="643" y="258" width="672" height="678" key="search.everywhere.popup" timestamp="1583358411150">
+      <screen x="67" y="27" width="1853" height="1052" />
+    </state>
+    <state x="643" y="258" width="672" height="678" key="search.everywhere.popup/67.27.1853.1052@67.27.1853.1052" timestamp="1583358411150" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/new_criteria$fuzzing.coverage" NAME="fuzzing Coverage Results" MODIFIED="1583295868515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/new_criteria$fuzzing_testset.coverage" NAME="fuzzing_testset Coverage Results" MODIFIED="1583296661900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/new_criteria$retrain_robustness.coverage" NAME="retrain_robustness Coverage Results" MODIFIED="1583300046937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/new_criteria_mnist$compare_coverage.coverage" NAME="compare_coverage Coverage Results" MODIFIED="1583467501257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/new_criteria_mnist$retrain_robustness.coverage" NAME="retrain_robustness Coverage Results" MODIFIED="1590204870585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Figure_2_and_figure_3$compare_coverage.coverage" NAME="compare_coverage Coverage Results" MODIFIED="1590454809566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Figure_2_and_figure_3$retrain_robustness.coverage" NAME="retrain_robustness Coverage Results" MODIFIED="1590455122966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/new_criteria_mnist$show_pictures.coverage" NAME="show_pictures Coverage Results" MODIFIED="1583363777638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/new_criteria$compare_coverage.coverage" NAME="compare_coverage Coverage Results" MODIFIED="1583296566050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/new_criteria$exchange_testing_dataset.coverage" NAME="exchange_testing_dataset Coverage Results" MODIFIED="1583296693966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

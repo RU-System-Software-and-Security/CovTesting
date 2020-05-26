@@ -1,0 +1,144 @@
+the result of mnist lenet1is:     original
+NC(0.1): 1.0  activate_num: 2314  total_num: 2314 
+NC(0.3): 1.0  activate_num: 2314  total_num: 2314 
+NC(0.5): 0.993085566119274  activate_num: 2298  total_num: 2314 
+NC(0.7): 0.6949006050129646  activate_num: 1608  total_num: 2314 
+NC(0.9): 0.47968885047536736  activate_num: 1110  total_num: 2314 
+TKNC: 0.5086430423509075  pattern_num: 1177  total_num: 2314 
+TKNP: 37157 
+KMNC: 0.9951166810717372  covered_num: 23027  total_num: 23140 
+NBC: 0.45484010371650824  l_covered_num: 0  u_covered_num: 2105 
+SNAC: 0.9096802074330165 
+
+------------------------------------------------------------------------------
+the result of mnist lenet1is: 
+NC(0.1): 1.0  activate_num: 2314  total_num: 2314 
+NC(0.3): 1.0  activate_num: 2314  total_num: 2314 
+NC(0.5): 0.9939498703543648  activate_num: 2300  total_num: 2314 
+NC(0.7): 0.7078651685393258  activate_num: 1638  total_num: 2314 
+NC(0.9): 0.48055315471045806  activate_num: 1112  total_num: 2314 
+TKNC: 0.5220397579948142  pattern_num: 1208  total_num: 2314 
+TKNP: 37316 
+KMNC: 0.9968885047536733  covered_num: 23068  total_num: 23140 
+NBC: 0.4872515125324114  l_covered_num: 141  u_covered_num: 2114 
+SNAC: 0.9135695764909249 
+
+------------------------------------------------------------------------------
+the result of mnist lenet1is: 
+NC(0.1): 1.0  activate_num: 2314  total_num: 2314 
+NC(0.3): 1.0  activate_num: 2314  total_num: 2314 
+NC(0.5): 0.9948141745894555  activate_num: 2302  total_num: 2314 
+NC(0.7): 0.7117545375972342  activate_num: 1647  total_num: 2314 
+NC(0.9): 0.4822817631806396  activate_num: 1116  total_num: 2314 
+TKNC: 0.5324114088159032  pattern_num: 1232  total_num: 2314 
+TKNP: 37492 
+KMNC: 0.9970181503889369  covered_num: 23071  total_num: 23140 
+NBC: 0.4978392394122731  l_covered_num: 189  u_covered_num: 2115 
+SNAC: 0.9140017286084702 
+
+------------------------------------------------------------------------------
+the result of mnist lenet1is: 
+NC(0.1): 1.0  activate_num: 2314  total_num: 2314 
+NC(0.3): 1.0  activate_num: 2314  total_num: 2314 
+NC(0.5): 0.9952463267070009  activate_num: 2303  total_num: 2314 
+NC(0.7): 0.7139152981849611  activate_num: 1652  total_num: 2314 
+NC(0.9): 0.48357821953327573  activate_num: 1119  total_num: 2314 
+TKNC: 0.5419187554019015  pattern_num: 1254  total_num: 2314 
+TKNP: 37637 
+KMNC: 0.9973206568712186  covered_num: 23078  total_num: 23140 
+NBC: 0.5058340535868626  l_covered_num: 224  u_covered_num: 2117 
+SNAC: 0.9148660328435609 
+
+------------------------------------------------------------------------------
+the result of mnist lenet1is: 
+NC(0.1): 1.0  activate_num: 2314  total_num: 2314 
+NC(0.3): 1.0  activate_num: 2314  total_num: 2314 
+NC(0.5): 0.9952463267070009  activate_num: 2303  total_num: 2314 
+NC(0.7): 0.7152117545375972  activate_num: 1655  total_num: 2314 
+NC(0.9): 0.4853068280034572  activate_num: 1123  total_num: 2314 
+TKNC: 0.5501296456352636  pattern_num: 1273  total_num: 2314 
+TKNP: 37807 
+KMNC: 0.9975367329299913  covered_num: 23083  total_num: 23140 
+NBC: 0.5151253241140882  l_covered_num: 266  u_covered_num: 2118 
+SNAC: 0.9152981849611063 
+
+------------------------------------------------------------------------------
+the result of mnist lenet1is: 
+NC(0.1): 1.0  activate_num: 2314  total_num: 2314 
+NC(0.3): 1.0  activate_num: 2314  total_num: 2314 
+NC(0.5): 0.9952463267070009  activate_num: 2303  total_num: 2314 
+NC(0.7): 0.7156439066551427  activate_num: 1656  total_num: 2314 
+NC(0.9): 0.4870354364736387  activate_num: 1127  total_num: 2314 
+TKNC: 0.5561797752808989  pattern_num: 1287  total_num: 2314 
+TKNP: 37971 
+KMNC: 0.9976231633535004  covered_num: 23085  total_num: 23140 
+NBC: 0.5209593777009507  l_covered_num: 292  u_covered_num: 2119 
+SNAC: 0.9157303370786517 
+
+------------------------------------------------------------------------------
+the result of mnist lenet1is: 
+NC(0.1): 1.0  activate_num: 2314  total_num: 2314 
+NC(0.3): 1.0  activate_num: 2314  total_num: 2314 
+NC(0.5): 0.9952463267070009  activate_num: 2303  total_num: 2314 
+NC(0.7): 0.7156439066551427  activate_num: 1656  total_num: 2314 
+NC(0.9): 0.4878997407087295  activate_num: 1129  total_num: 2314 
+TKNC: 0.5622299049265341  pattern_num: 1301  total_num: 2314 
+TKNP: 38120 
+KMNC: 0.9976231633535004  covered_num: 23085  total_num: 23140 
+NBC: 0.5246326707000865  l_covered_num: 308  u_covered_num: 2120 
+SNAC: 0.916162489196197 
+
+------------------------------------------------------------------------------
+the result of mnist lenet1is: 
+NC(0.1): 1.0  activate_num: 2314  total_num: 2314 
+NC(0.3): 1.0  activate_num: 2314  total_num: 2314 
+NC(0.5): 0.9952463267070009  activate_num: 2303  total_num: 2314 
+NC(0.7): 0.7165082108902333  activate_num: 1658  total_num: 2314 
+NC(0.9): 0.48962834917891096  activate_num: 1133  total_num: 2314 
+TKNC: 0.5691443388072601  pattern_num: 1317  total_num: 2314 
+TKNP: 38295 
+KMNC: 0.9977528089887641  covered_num: 23088  total_num: 23140 
+NBC: 0.5272255834053586  l_covered_num: 320  u_covered_num: 2120 
+SNAC: 0.916162489196197 
+
+------------------------------------------------------------------------------
+the result of mnist lenet1is: 
+NC(0.1): 1.0  activate_num: 2314  total_num: 2314 
+NC(0.3): 1.0  activate_num: 2314  total_num: 2314 
+NC(0.5): 0.9952463267070009  activate_num: 2303  total_num: 2314 
+NC(0.7): 0.7186689714779603  activate_num: 1663  total_num: 2314 
+NC(0.9): 0.4913569576490925  activate_num: 1137  total_num: 2314 
+TKNC: 0.5734658599827139  pattern_num: 1327  total_num: 2314 
+TKNP: 38443 
+KMNC: 0.9978824546240277  covered_num: 23091  total_num: 23140 
+NBC: 0.5308988764044944  l_covered_num: 337  u_covered_num: 2120 
+SNAC: 0.916162489196197 
+
+------------------------------------------------------------------------------
+the result of mnist lenet1is: 
+NC(0.1): 1.0  activate_num: 2314  total_num: 2314 
+NC(0.3): 1.0  activate_num: 2314  total_num: 2314 
+NC(0.5): 0.9952463267070009  activate_num: 2303  total_num: 2314 
+NC(0.7): 0.7186689714779603  activate_num: 1663  total_num: 2314 
+NC(0.9): 0.49265341400172863  activate_num: 1140  total_num: 2314 
+TKNC: 0.5777873811581676  pattern_num: 1337  total_num: 2314 
+TKNP: 38631 
+KMNC: 0.9981849611063094  covered_num: 23098  total_num: 23140 
+NBC: 0.5360847018150389  l_covered_num: 359  u_covered_num: 2122 
+SNAC: 0.9170267934312878 
+
+------------------------------------------------------------------------------
+the result of mnist lenet1is: 
+NC(0.1): 1.0  activate_num: 2314  total_num: 2314 
+NC(0.3): 1.0  activate_num: 2314  total_num: 2314 
+NC(0.5): 0.9952463267070009  activate_num: 2303  total_num: 2314 
+NC(0.7): 0.7186689714779603  activate_num: 1663  total_num: 2314 
+NC(0.9): 0.49351771823681934  activate_num: 1142  total_num: 2314 
+TKNC: 0.5825410544511668  pattern_num: 1348  total_num: 2314 
+TKNP: 38807 
+KMNC: 0.9982281763180639  covered_num: 23099  total_num: 23140 
+NBC: 0.5384615384615384  l_covered_num: 370  u_covered_num: 2122 
+SNAC: 0.9170267934312878 
+
+
+
