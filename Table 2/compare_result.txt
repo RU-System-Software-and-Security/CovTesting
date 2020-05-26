@@ -1,0 +1,56 @@
+
+------------------------------------------------------------------------------
+the result of mnist lenet1 is: 
+MR of DH is 0.097 
+MR of DP is 1.0 
+Linf of DH is 251.0 
+Linf of DP is 77.0 
+
+------------------------------------------------------------------------------
+the result of mnist lenet4 is: 
+MR of DH is 0.036 
+MR of DP is 1.0 
+Linf of DH is 248.16666666666666 
+Linf of DP is 77.0 
+
+------------------------------------------------------------------------------
+the result of mnist lenet5 is: 
+MR of DH is 0.042 
+MR of DP is 0.999 
+Linf of DH is 249.6551724137931 
+Linf of DP is 77.0 
+
+------------------------------------------------------------------------------
+the result of cifar vgg16 is: 
+MR of DH is 0.429 
+MR of DP is 0.898 
+Linf of DH is 106.45648810392643 
+Linf of DP is 8.0 
+
+------------------------------------------------------------------------------
+the result of cifar resnet20 is: 
+MR of DH is 0.422 
+MR of DP is 0.999 
+Linf of DH is 92.61751249519415 
+Linf of DP is 8.0 
+
+------------------------------------------------------------------------------
+the result of svhn svhn_model is: 
+MR of DH is 0.235 
+MR of DP is 1.0 
+Linf of DH is 166.21212121212122 
+Linf of DP is 8.896969696969697 
+
+------------------------------------------------------------------------------
+the result of svhn svhn_first is: 
+MR of DH is 0.296 
+MR of DP is 0.999 
+Linf of DH is 174.80444444444444 
+Linf of DP is 8.911111111111111 
+
+------------------------------------------------------------------------------
+the result of svhn svhn_second is: 
+MR of DH is 0.211 
+MR of DP is 1.0 
+Linf of DH is 168.80232558139534 
+Linf of DP is 8.94186046511628 
