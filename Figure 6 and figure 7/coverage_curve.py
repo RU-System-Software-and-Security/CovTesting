@@ -265,6 +265,17 @@ if __name__ == '__main__':
         tknc, _, _ = coverage.TKNC(l)
         tknp = coverage.TKNP(l)
 
+        with open("coverage_result.txt", "a") as f:
+            f.write("\n------------------------------------------------------------------------------\n")
+            f.write('x: {}   \n'.format(i))
+            f.write('NC(0.1): {}   \n'.format(nc1))
+            f.write('NC(0.3): {}   \n'.format(nc2))
+            f.write('TKNC: {}   \n'.format(tknc))
+            f.write('TKNP: {} \n'.format(tknp))
+            f.write('KMNC: {} \n'.format(kmnc))
+            f.write('NBC: {}  \n'.format(nbc))
+            f.write('SNAC: {} \n'.format(snac))
+
         xlabel.append(i)
         cov_nc1.append(nc1)
         cov_nc2.append(nc2)
