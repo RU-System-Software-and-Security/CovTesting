@@ -5,33 +5,40 @@
 '
 
 #: 'attack'
-#python attack.py  -dataset mnist  -model lenet1 -attack PGD -batch_size 128
+python attack.py  -dataset mnist  -model lenet1 -attack PGD -batch_size 128
+python attack.py  -dataset mnist  -model lenet4 -attack PGD -batch_size 128
+python attack.py  -dataset mnist  -model lenet5 -attack PGD -batch_size 128
 
-#python attack.py  -dataset mnist  -model lenet4 -attack PGD -batch_size 128
+python attack.py  -dataset cifar  -model vgg16 -attack PGD -batch_size 128
+python attack.py  -dataset cifar  -model resnet20 -attack PGD -batch_size 128
 
-#python attack.py  -dataset mnist  -model lenet5 -attack PGD -batch_size 128
+python attack.py  -dataset svhn  -model svhn_model -attack PGD -batch_size 128
+python attack.py  -dataset svhn  -model svhn_first -attack PGD -batch_size 128
+python attack.py  -dataset svhn  -model svhn_second -attack PGD -batch_size 128
 
-#python attack.py  -dataset cifar  -model vgg16 -attack PGD -batch_size 128
+## DH
+python deephunter_attack.py  -dataset mnist  -model lenet1
+python deephunter_attack.py  -dataset mnist  -model lenet4
+python deephunter_attack.py  -dataset mnist  -model lenet5
 
-#python attack.py  -dataset cifar  -model resnet20 -attack PGD -batch_size 128
+python deephunter_attack.py  -dataset cifar  -model vgg16
+python deephunter_attack.py  -dataset cifar  -model resnet20
 
-#python attack.py  -dataset svhn  -model svhn_model -attack PGD -batch_size 128
+python deephunter_attack.py  -dataset svhn  -model svhn_model
+python deephunter_attack.py  -dataset svhn  -model svhn_first
+python deephunter_attack.py  -dataset svhn  -model svhn_second
 
-#python attack.py  -dataset svhn  -model svhn_first -attack PGD -batch_size 128
+# criteria
+python criteria.py  -dataset mnist  -model lenet1
+python criteria.py  -dataset mnist  -model lenet4
+python criteria.py  -dataset mnist  -model lenet5
 
-#python attack.py  -dataset svhn  -model svhn_second -attack PGD -batch_size 128
-
-
-#python criteria.py  -dataset mnist  -model lenet1
-#python criteria.py  -dataset mnist  -model lenet4
-#python criteria.py  -dataset mnist  -model lenet5
-#
 python criteria.py  -dataset cifar  -model vgg16
-#python criteria.py  -dataset cifar  -model resnet20
-#
-#python criteria.py  -dataset svhn  -model svhn_model
-#python criteria.py  -dataset svhn  -model svhn_first
-#python criteria.py  -dataset svhn  -model svhn_second
+python criteria.py  -dataset cifar  -model resnet20
+
+python criteria.py  -dataset svhn  -model svhn_model
+python criteria.py  -dataset svhn  -model svhn_first
+python criteria.py  -dataset svhn  -model svhn_second
 
 
 
