@@ -222,7 +222,7 @@ class Coverage:
         self.TKNP(layers, batch=batch)
 
 
-def mutate(img):
+def mutate(img, dataset):
     # ref_img is the reference image, img is the seed
 
     # cl means the current state of transformation
@@ -260,7 +260,7 @@ def mutate(img):
     random.seed(time.time())
 
     tid = random.sample(classA + classB, 1)[0]
-    # tid = 8
+    # tid = 1
     # Randomly select one transformation   Line-7 in Algorithm2
     transformation = transformations[tid]
     params = params[tid]
@@ -271,16 +271,16 @@ def mutate(img):
 
     # plt.imshow(img + 0.5)
     # plt.show()
-
-    image = np.uint8(np.round((img + 0.5) * 255))
-    img_new = transformation(copy.deepcopy(image), param)/ 255.0 - 0.5
-    # img_new = np.round(img_new)
-    img_new = img_new.reshape(img.shape)
-
-    # # for cifar dataset
-    # img_new = transformation(img, param)
-    # # img_new = np.round(img_new)
-    # img_new = img_new.reshape(img.shape)
+    if dataset == 'cifar':
+        # # for cifar dataset
+        img_new = transformation(img, param)
+        # img_new = np.round(img_new)
+        img_new = img_new.reshape(img.shape)
+    else:
+        image = np.uint8(np.round((img + 0.5) * 255))
+        img_new = transformation(copy.deepcopy(image), param)/ 255.0 - 0.5
+        # img_new = np.round(img_new)
+        img_new = img_new.reshape(img.shape)
 
     # Otherwise the mutation is failed. Line 20 in Algo 2
     return img_new
@@ -298,9 +298,14 @@ def load_data(name):
 
 
 if __name__ == '__main__':
-    dataset = 'mnist'
-    model_name = 'lenet1'
-    # model_layer = 18
+    parser = argparse.ArgumentParser(description='Deephunter for DNN')
+    parser.add_argument('-dataset', help="dataset to use", choices=['mnist', 'cifar', 'svhn'])
+    parser.add_argument('-model', help="target model to attack", choices=['vgg16', 'resnet20', 'lenet1', 'lenet4', 'lenet5', 'svhn_model', 'svhn_second', 'svhn_first'])
+
+    args = parser.parse_args()
+
+    dataset = args.dataset
+    model_name = args.model
 
     # load dataset
     x_train, y_train, x_test, y_test = load_data(dataset)
@@ -312,7 +317,7 @@ if __name__ == '__main__':
 
     x_adv = np.array([])
     for i in range(1000):
-        new_image = mutate(x_test[i])
+        new_image = mutate(x_test[i], dataset)
 
         if x_adv.size == 0:
             x_adv = np.expand_dims(new_image, axis=0)
