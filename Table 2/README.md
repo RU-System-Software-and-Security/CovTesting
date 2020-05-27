@@ -1,10 +1,22 @@
-﻿# Figure 6 and figure 7
+﻿# Table 2
 
 ---
-## Quick start
+## Quick Start 
 
 1. Download the dataset from google drive link:                  and put them in the 'data' folder. 
 
-2. Run 'coverage_curve.py' to get the results of coverage metrics change with numbers of adversarial examples (figure 6). All results will be stored in 'coverage_result.txt'. It will also generate several '.npy' files and store them in 'Q2_original' folder for post-process. The excel file we use to generate figure 6 is 'figure 6.xlsx'. It includes the results and the figure 6 we got.
-3. Run 'tknp_testing.py' to get the change of TKNP with numbers of inputs (blue line in figure 7). The results will be stored in 'testing_coverage_result.txt'. It will also generate a 'tknp_all.npy' file in 'Q2_original' folder  for post-process. To generate figure 7, we need the results from this step and "TKNP VS. # adversarial examples" related data from step 2 ('cov_tknp.npy' in 'Q2_original' folder, the red line in figure 7). The excel file we use to generate figure 7 is 'figure 7.xlsx'. It includes the data we use and the figure 7 we got.
+2. We have put [commands](https://github.com/DNNTesting/CovTesting/blob/e60737edce6cc275d2044dbe097f92f28d11f2ac/Table%202/test_example.sh#L25-L34) in 'test_example.sh'. Please uncomment the line comment and run 'test_example.sh' to get the corresponding result. The results will be stored in 'compare_result.txt'. 
 
+   (We only keep the original Images dataset for CIFAR and SVHN models. We re-attack the MNIST models and use the newly generated dataset to do testing. So the results of MNIST is slightly different from those shown in our paper. But as you can see, the difference is acceptable and it will affect our conclusion.)
+
+
+
+## General Steps:
+
+1. PGD attack the dataset: 
+
+   We have put [commands](https://github.com/DNNTesting/CovTesting/blob/e60737edce6cc275d2044dbe097f92f28d11f2ac/Table%202/test_example.sh#L7-L22) of PGD attacking in 'test_example.sh'. Please uncomment the line comment and run 'test_example.sh' to implement the corresponding PGD attack. Attacked dataset will be stored in ('./data/' + args.dataset + '_data/model/' + args.model  + _PGD.npy').
+
+2. Use DeepHunter to generate test cases:
+
+   
