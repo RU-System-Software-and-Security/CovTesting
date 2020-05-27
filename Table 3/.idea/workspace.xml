@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="acaf6314-5411-46bf-9e76-f3409f28e0d0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YdrqWI9BC7JTP4fiE7p46R8dbU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Table 2" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.pgd_attack">
+    <configuration name="deephunter_attack" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="new_criteria" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deephunter_attack.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fuzzing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="new_criteria" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fuzzing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pgd_attack" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="new_criteria" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pgd_attack.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="retrain_robustness" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="new_criteria" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/retrain_robustness.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_example.sh" type="ShConfigurationType" temporary="true">
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/test_example.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.pgd_attack" />
+        <item itemvalue="Python.retrain_robustness" />
+        <item itemvalue="Python.fuzzing" />
+        <item itemvalue="Python.deephunter_attack" />
+        <item itemvalue="Shell Script.test_example.sh" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="acaf6314-5411-46bf-9e76-f3409f28e0d0" name="Default Changelist" comment="" />
+      <created>1583283502296</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583283502296</updated>
+      <workItem from="1583283504714" duration="16950000" />
+      <workItem from="1583336882128" duration="549000" />
+      <workItem from="1583338200226" duration="48000" />
+      <workItem from="1583338739929" duration="14287000" />
+      <workItem from="1583439268853" duration="17958000" />
+      <workItem from="1590528384281" duration="6266000" />
+      <workItem from="1590535305814" duration="6000" />
+      <workItem from="1590535319453" duration="693000" />
+      <workItem from="1590536128083" duration="1486000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="765" y="286" width="524" height="510" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583375881018">
+      <screen x="67" y="27" width="1853" height="1052" />
+    </state>
+    <state x="765" y="286" width="524" height="510" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1052@67.27.1853.1052" timestamp="1583375881018" />
+    <state x="756" y="248" width="424" height="492" key="FileChooserDialogImpl" timestamp="1590528486785">
+      <screen x="67" y="27" width="1853" height="1052" />
+    </state>
+    <state x="756" y="248" width="424" height="492" key="FileChooserDialogImpl/67.27.1853.1052/1920.0.1920.1080@67.27.1853.1052" timestamp="1590528486785" />
+    <state x="756" y="264" width="424" height="492" key="FileChooserDialogImpl/67.27.1853.1052@67.27.1853.1052" timestamp="1583376436224" />
+    <state width="1611" height="245" key="GridCell.Tab.0.bottom" timestamp="1590537614075">
+      <screen x="67" y="27" width="1853" height="1052" />
+    </state>
+    <state width="1611" height="245" key="GridCell.Tab.0.bottom/67.27.1853.1052/1920.0.1920.1080@67.27.1853.1052" timestamp="1590537614075" />
+    <state width="1611" height="286" key="GridCell.Tab.0.bottom/67.27.1853.1052@67.27.1853.1052" timestamp="1583464215884" />
+    <state width="1611" height="245" key="GridCell.Tab.0.center" timestamp="1590537614075">
+      <screen x="67" y="27" width="1853" height="1052" />
+    </state>
+    <state width="1611" height="245" key="GridCell.Tab.0.center/67.27.1853.1052/1920.0.1920.1080@67.27.1853.1052" timestamp="1590537614075" />
+    <state width="1611" height="286" key="GridCell.Tab.0.center/67.27.1853.1052@67.27.1853.1052" timestamp="1583464215884" />
+    <state width="1611" height="245" key="GridCell.Tab.0.left" timestamp="1590537614075">
+      <screen x="67" y="27" width="1853" height="1052" />
+    </state>
+    <state width="1611" height="245" key="GridCell.Tab.0.left/67.27.1853.1052/1920.0.1920.1080@67.27.1853.1052" timestamp="1590537614075" />
+    <state width="1611" height="286" key="GridCell.Tab.0.left/67.27.1853.1052@67.27.1853.1052" timestamp="1583464215884" />
+    <state width="1611" height="245" key="GridCell.Tab.0.right" timestamp="1590537614075">
+      <screen x="67" y="27" width="1853" height="1052" />
+    </state>
+    <state width="1611" height="245" key="GridCell.Tab.0.right/67.27.1853.1052/1920.0.1920.1080@67.27.1853.1052" timestamp="1590537614075" />
+    <state width="1611" height="286" key="GridCell.Tab.0.right/67.27.1853.1052@67.27.1853.1052" timestamp="1583464215884" />
+    <state width="1611" height="334" key="GridCell.Tab.1.bottom" timestamp="1583296383187">
+      <screen x="67" y="27" width="1853" height="1052" />
+    </state>
+    <state width="1611" height="334" key="GridCell.Tab.1.bottom/67.27.1853.1052@67.27.1853.1052" timestamp="1583296383187" />
+    <state width="1611" height="334" key="GridCell.Tab.1.center" timestamp="1583296383187">
+      <screen x="67" y="27" width="1853" height="1052" />
+    </state>
+    <state width="1611" height="334" key="GridCell.Tab.1.center/67.27.1853.1052@67.27.1853.1052" timestamp="1583296383187" />
+    <state width="1611" height="334" key="GridCell.Tab.1.left" timestamp="1583296383187">
+      <screen x="67" y="27" width="1853" height="1052" />
+    </state>
+    <state width="1611" height="334" key="GridCell.Tab.1.left/67.27.1853.1052@67.27.1853.1052" timestamp="1583296383187" />
+    <state width="1611" height="334" key="GridCell.Tab.1.right" timestamp="1583296383187">
+      <screen x="67" y="27" width="1853" height="1052" />
+    </state>
+    <state width="1611" height="334" key="GridCell.Tab.1.right/67.27.1853.1052@67.27.1853.1052" timestamp="1583296383187" />
+    <state x="498" y="180" width="1016" height="738" key="SettingsEditor" timestamp="1583283528991">
+      <screen x="67" y="27" width="1853" height="1052" />
+    </state>
+    <state x="498" y="180" width="1016" height="738" key="SettingsEditor/67.27.1853.1052@67.27.1853.1052" timestamp="1583283528991" />
+    <state x="623" y="199" width="683" height="772" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1583295610317">
+      <screen x="67" y="27" width="1853" height="1052" />
+    </state>
+    <state x="623" y="199" width="683" height="772" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.1853.1052@67.27.1853.1052" timestamp="1583295610317" />
+    <state x="643" y="258" width="672" height="678" key="search.everywhere.popup" timestamp="1590535424740">
+      <screen x="67" y="27" width="1853" height="1052" />
+    </state>
+    <state x="643" y="258" width="672" height="678" key="search.everywhere.popup/67.27.1853.1052/1920.0.1920.1080@67.27.1853.1052" timestamp="1590535424740" />
+    <state x="643" y="258" width="672" height="678" key="search.everywhere.popup/67.27.1853.1052@67.27.1853.1052" timestamp="1583295432475" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Table_3$pgd_attack.coverage" NAME="pgd_attack Coverage Results" MODIFIED="1590537529918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/new_criteria$fuzzing.coverage" NAME="fuzzing Coverage Results" MODIFIED="1583295868515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/new_criteria_svhn$pgd_attack.coverage" NAME="pgd_attack Coverage Results" MODIFIED="1583460201405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/new_criteria_svhn$fuzzing_testset.coverage" NAME="fuzzing_testset Coverage Results" MODIFIED="1583373055625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Table_3$allllllllllllllllllllllllllllll.coverage" NAME="allllllllllllllllllllllllllllll Coverage Results" MODIFIED="1590533766072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Table_3$fuzzing.coverage" NAME="fuzzing Coverage Results" MODIFIED="1590537017224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/new_criteria_svhn$allllllllllllllllllllllllllllll.coverage" NAME="allllllllllllllllllllllllllllll Coverage Results" MODIFIED="1583460282869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/new_criteria_svhn$exchange_testing_dataset.coverage" NAME="exchange_testing_dataset Coverage Results" MODIFIED="1583370638015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/new_criteria$compare_coverage.coverage" NAME="compare_coverage Coverage Results" MODIFIED="1583296566050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/new_criteria_svhn$deephunter_attack.coverage" NAME="deephunter_attack Coverage Results" MODIFIED="1583460187727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/new_criteria_svhn$retrain_robustness.coverage" NAME="retrain_robustness Coverage Results" MODIFIED="1583459117843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/new_criteria$fuzzing_testset.coverage" NAME="fuzzing_testset Coverage Results" MODIFIED="1583296661900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/new_criteria$retrain_robustness.coverage" NAME="retrain_robustness Coverage Results" MODIFIED="1583300046937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/new_criteria_svhn$compare_coverage.coverage" NAME="compare_coverage Coverage Results" MODIFIED="1583377086565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/new_criteria_svhn$fuzzing.coverage" NAME="fuzzing Coverage Results" MODIFIED="1583456589897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Table_3$deephunter_attack.coverage" NAME="deephunter_attack Coverage Results" MODIFIED="1590536268738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Table_3$retrain_robustness.coverage" NAME="retrain_robustness Coverage Results" MODIFIED="1590537352024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Table_3$all.coverage" NAME="all Coverage Results" MODIFIED="1590535331236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/new_criteria$exchange_testing_dataset.coverage" NAME="exchange_testing_dataset Coverage Results" MODIFIED="1583296693966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
