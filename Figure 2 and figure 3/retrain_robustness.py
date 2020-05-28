@@ -378,60 +378,18 @@ if __name__ == '__main__':
     model = load_model('./data/' + dataset + '_data/model/' + model_name + '.h5')
     model.summary()
 
-    # index = np.load('fuzzing/nc_index_{}.npy'.format(0), allow_pickle=True).item()
-    # for y, x in index.items():
-    #     x_train = np.concatenate((x_train, np.expand_dims(x, axis=0)), axis=0)
-    #     y_train = np.concatenate((y_train, np.expand_dims(y_train[y], axis=0)), axis=0)
-    #
-    # index = np.load('fuzzing/nc_index_{}.npy'.format(1), allow_pickle=True).item()
-    # for y, x in index.items():
-    #     x_train = np.concatenate((x_train, np.expand_dims(x, axis=0)), axis=0)
-    #     y_train = np.concatenate((y_train, np.expand_dims(y_train[y], axis=0)), axis=0)
-    #
-    # index = np.load('fuzzing/nc_index_{}.npy'.format(2), allow_pickle=True).item()
-    # for y, x in index.items():
-    #     x_train = np.concatenate((x_train, np.expand_dims(x, axis=0)), axis=0)
-    #     y_train = np.concatenate((y_train, np.expand_dims(y_train[y], axis=0)), axis=0)
-    #
-    # index = np.load('fuzzing/nc_index_{}.npy'.format(3), allow_pickle=True).item()
-    # for y, x in index.items():
-    #     x_train = np.concatenate((x_train, np.expand_dims(x, axis=0)), axis=0)
-    #     y_train = np.concatenate((y_train, np.expand_dims(y_train[y], axis=0)), axis=0)
-    #
-    # index = np.load('fuzzing/nc_index_{}.npy'.format(4), allow_pickle=True).item()
-    # for y, x in index.items():
-    #     x_train = np.concatenate((x_train, np.expand_dims(x, axis=0)), axis=0)
-    #     y_train = np.concatenate((y_train, np.expand_dims(y_train[y], axis=0)), axis=0)
-    #
-    # index = np.load('fuzzing/nc_index_{}.npy'.format(5), allow_pickle=True).item()
-    # for y, x in index.items():
-    #     x_train = np.concatenate((x_train, np.expand_dims(x, axis=0)), axis=0)
-    #     y_train = np.concatenate((y_train, np.expand_dims(y_train[y], axis=0)), axis=0)
-    #
-    # index = np.load('fuzzing/nc_index_{}.npy'.format(6), allow_pickle=True).item()
-    # for y, x in index.items():
-    #     x_train = np.concatenate((x_train, np.expand_dims(x, axis=0)), axis=0)
-    #     y_train = np.concatenate((y_train, np.expand_dims(y_train[y], axis=0)), axis=0)
-    #
-    # index = np.load('fuzzing/nc_index_{}.npy'.format(7), allow_pickle=True).item()
-    # for y, x in index.items():
-    #     x_train = np.concatenate((x_train, np.expand_dims(x, axis=0)), axis=0)
-    #     y_train = np.concatenate((y_train, np.expand_dims(y_train[y], axis=0)), axis=0)
-    #
-    # index = np.load('fuzzing/nc_index_{}.npy'.format(8), allow_pickle=True).item()
-    # for y, x in index.items():
-    #     x_train = np.concatenate((x_train, np.expand_dims(x, axis=0)), axis=0)
-    #     y_train = np.concatenate((y_train, np.expand_dims(y_train[y], axis=0)), axis=0)
-    #
-    # index = np.load('fuzzing/nc_index_{}.npy'.format(9), allow_pickle=True).item()
-    # for y, x in index.items():
-    #     x_train = np.concatenate((x_train, np.expand_dims(x, axis=0)), axis=0)
-    #     y_train = np.concatenate((y_train, np.expand_dims(y_train[y], axis=0)), axis=0)
-    #
-    # retrained_model = retrain(model, x_train, y_train, x_test, y_test, batch_size=512, epochs=30)
-    # retrained_model.save('new_model/' + dataset +'/model_9.h5')
+    T = 1
 
-    retrained_model = load_model('new_model/' + dataset +'/model_1.h5')
+    for i in range(T):
+        index = np.load('fuzzing/nc_index_{}.npy'.format(i), allow_pickle=True).item()
+        for y, x in index.items():
+            x_train = np.concatenate((x_train, np.expand_dims(x, axis=0)), axis=0)
+            y_train = np.concatenate((y_train, np.expand_dims(y_train[y], axis=0)), axis=0)
+
+    retrained_model = retrain(model, x_train, y_train, x_test, y_test, batch_size=512, epochs=30)
+    retrained_model.save('new_model/' + dataset +'/model_{}.h5'.format(T-1))
+
+    # retrained_model = load_model('new_model/' + dataset +'/model_{}.h5'.format(T-1))
 
     criteria = AttackEvaluate(retrained_model, x_test, y_test, x_test_new)
 
