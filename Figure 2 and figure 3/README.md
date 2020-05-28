@@ -12,13 +12,13 @@
 
 ## General Steps:
 
-fuzzing_testset.py + exchange_testing_dataset.py: Run 'fuzzing_testset.py' firstly, and then run 'exchange_testing_dataset.py'. generate the new testing dataset. 
-
-fuzzing.py: use DeepHunter to generate new training data to be added to the original training dataset 
-
-order_number 0~9, results will be stored at (fuzzing/nc_index_{}.npy)
+1. Run 'fuzzing.py' to generate new training data to be added to the original training dataset. To generate T1-T10, please modify the [order_number](https://github.com/DNNTesting/CovTesting/blob/250ac8148a1532f900d4129ac24423fba3c3b1cf/Figure%202%20and%20figure%203/fuzzing.py#L336) from 0 to 9 in sequence. All results will be stored at 'fuzzing/nc_index_{}.npy'.format(order_number)
 
 compare_coverage.py: add the generated training dataset to the original training dataset and test the coverage. (figure 2)
+
+
+
+fuzzing_testset.py + exchange_testing_dataset.py: Run 'fuzzing_testset.py' firstly, and then run 'exchange_testing_dataset.py'. generate the new testing dataset. 
 
 retrain_robustness.py: add the generated training dataset to the original training dataset and then retrain the model. The retrained model are saved at ('new_model/' + dataset +'/model_{}.h5'.format()). Then this file will measure the Robustness of the model. (figure 3)
 
