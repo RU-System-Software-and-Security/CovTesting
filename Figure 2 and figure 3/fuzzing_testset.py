@@ -333,7 +333,7 @@ if __name__ == '__main__':
     # print(softmax(model.predict(np.expand_dims(x_test[0], axis=0))).argmax(axis=-1))
     # print(y_test[0])
 
-    order_number = 2
+    order_number = １
 
     nc_index = {}
     nc_number = 0
