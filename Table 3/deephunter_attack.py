@@ -222,7 +222,7 @@ class Coverage:
         self.TKNP(layers, batch=batch)
 
 
-def mutate(img):
+def mutate(img, dataset):
     # ref_img is the reference image, img is the seed
 
     # cl means the current state of transformation
@@ -272,15 +272,17 @@ def mutate(img):
     # plt.imshow(img + 0.5)
     # plt.show()
 
-    # image = np.uint8(np.round((img + 0.5) * 255))
-    # img_new = transformation(copy.deepcopy(image), param)/ 255.0 - 0.5
-    # # img_new = np.round(img_new)
-    # img_new = img_new.reshape(img.shape)
+    if dataset == 'cifar':
+        # # for cifar dataset
+        img_new = transformation(img, param)
+        # img_new = np.round(img_new)
+        img_new = img_new.reshape(img.shape)
+    else:
+        image = np.uint8(np.round((img + 0.5) * 255))
+        img_new = transformation(copy.deepcopy(image), param)/ 255.0 - 0.5
+        # img_new = np.round(img_new)
+        img_new = img_new.reshape(img.shape)
 
-    # for cifar dataset
-    img_new = transformation(img, param)
-    # img_new = np.round(img_new)
-    img_new = img_new.reshape(img.shape)
 
     # Otherwise the mutation is failed. Line 20 in Algo 2
     return img_new
@@ -314,7 +316,7 @@ if __name__ == '__main__':
 
     x_adv = np.array([])
     for i in range(3000):
-        new_image = mutate(x_test[i])
+        new_image = mutate(x_test[i], dataset)
 
         if x_adv.size == 0:
             x_adv = np.expand_dims(new_image, axis=0)
