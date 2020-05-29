@@ -3,11 +3,11 @@
 ---
 ## Quick Start:
 
-1. Download the dataset from google drive link:                  and put them in the 'data' folder. 
+1. Download the dataset and new models from google drive link:                  and put them in the 'data' and 'new_model' folder, respectively. 
 
-2. We have put [commands](https://github.com/DNNTesting/CovTesting/blob/d462c59c1cbc00c2add20ee0eaf7a9966859788b/Table%202/test_example.sh#L32-L41) in 'test_example.sh'. Please uncomment the line comment and run 'test_example.sh' to get the corresponding result. The results will be stored in 'compare_result.txt'. 
+2. We have put [commands](https://github.com/DNNTesting/CovTesting/blob/d462c59c1cbc00c2add20ee0eaf7a9966859788b/Table%202/test_example.sh#L32-L41) in 'test_example.sh'. Please uncomment the line comment and run 'test_example.sh' to get the corresponding result for model. The results will be stored in 'result.txt'. To understand the meaning of the numbers in 'result.txt', we can take 'the result of cifar vgg16' as an example. The numbers after 'Benign-dh' is the numbers at the 8th row and the 3rd column in Table 3. The numbers after 'DH-dh' is the numbers at the 8th row and the 4th column. The numbers after 'PGD-dh' is the numbers at the 8th row and the 5th column. The numbers after 'DH-pgd' is the numbers at the 10th row and the 4th column. As for the numbers at the 10th row and the 3rd column and the numbers at the 10th row and the 5th column in Table 3, they can be gotten from the data used to generate Figure 4. 
 
-   (We only keep the original Images dataset for CIFAR and SVHN models. We re-attack the MNIST models and use the newly generated dataset to do testing. So the results of MNIST is slightly different from those shown in our paper. But as you can see, the difference is acceptable and it will not affect our conclusion.)
+   (We only keep the original models and datasets we used to get the results of CIFAR VGG16 and SVHN SADL-1. But users can generate their own models and datasets to get the similar results according to the steps in the following 'General Steps' section. We will take the steps to generate the results of MNIST LeNet-1 as an example. The difference between our results and the new results is acceptable and it will not affect our conclusion.)
 
 
 
