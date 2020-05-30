@@ -63,7 +63,7 @@
 #python attack_evaluate.py  -dataset svhn  -model svhn_second -attack PGD
 
 
-: 'coverage'
+#: 'coverage'
 #python coverage.py  -dataset mnist  -model lenet1 -attack CW -layer 8
 #python coverage.py  -dataset mnist  -model lenet1 -attack PGD -layer 8
 #
