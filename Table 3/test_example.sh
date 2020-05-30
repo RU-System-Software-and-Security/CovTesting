@@ -4,14 +4,14 @@
 
 '
 
-python all.py  -dataset mnist  -model lenet1
+#python all.py  -dataset mnist  -model lenet1
 #python all.py  -dataset mnist  -model lenet4
 #python all.py  -dataset mnist  -model lenet5
 #
-#python all.py  -dataset cifar  -model vgg16
+python all.py  -dataset cifar  -model vgg16
 #python all.py  -dataset cifar  -model resnet20
 #
-#python all.py  -dataset svhn  -model svhn_model
+python all.py  -dataset svhn  -model svhn_model
 #python all.py  -dataset svhn  -model svhn_first
 #python all.py  -dataset svhn  -model svhn_second
 
