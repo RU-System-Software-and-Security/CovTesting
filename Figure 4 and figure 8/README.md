@@ -74,10 +74,11 @@ We have put our "coverage_result.txt" and "attack_evaluate_result.txt" gotten fr
 
 
 
-Tips:
-
-1. For the measurement of LSA and DSA criteria, please refer to https://github.com/coinse/sadl. We use their original codes to test LSA and DSA of our models. 
-2. Feel free to use your own model, adversarial train different models and use different attacks to do different experiments. We are happy to see more results from you. 
+> Tips:
+>
+> 1. For the measurement of LSA and DSA criteria, please refer to https://github.com/coinse/sadl. We use their original codes to test LSA and DSA of our models. 
+> 2. Feel free to use your own model, adversarial train different models and use different attacks to do different experiments. We are happy to see more results from you. 
+>
 
 
 
