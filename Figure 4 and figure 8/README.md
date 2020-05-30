@@ -18,7 +18,7 @@ We have put all data we use to generate figure 4 and figure 8 in 'correlation.xl
 
 - Step 0: dependencies.
 
-We use [clevenhans](https://github.com/tensorflow/cleverhans) to construct attacks, and use [adversarial-robustness-toolbox](https://github.com/IBM/adversarial-robustness-toolbox) to do adversarial training. You can install the required dependencies according to the [requirements.txt](https://github.com/Jethro85/AETesting/blob/master/requirements.txt) file. What's more, the models and the datasets we use during our experiments are shared through: https://drive.google.com/drive/folders/1WXqnuBT0FISMyYuYGShbjGwOxK7nHdGK?usp=sharing. Please download them and put them under the 'data' folder. You can train your own models and attack them and test the attack and coverage according to the following steps.
+The models and the datasets we use during our experiments are shared through: https://drive.google.com/drive/folders/1WXqnuBT0FISMyYuYGShbjGwOxK7nHdGK?usp=sharing. Please download them and put them under the 'data' folder. You can train your own models and attack them and test the attack and coverage according to the following steps.
 
 - Step 1: Attack the models 
 
