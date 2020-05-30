@@ -72,7 +72,12 @@ We have put commands in 'test_example.sh'. You can uncomment different commands 
 
 We have put our "coverage_result.txt" and "attack_evaluate_result.txt" gotten from step 1 - step 7 in 'result_mnist', 'result_cifar' and 'result_svhn' folders. Then we input all of them into the 'correlation.xlsx'  (see the first, the second and the fourth sheets). The step 2 and step 3 in "**Quick Start**" section will use the first and the second sheets to calculate the correlation between coverage and robustness criteria (we put the correlation in the third sheet) and the step 4 will draw figure 4. The step 5 in "**Quick Start**" section will use the fourth sheet to calculate the inner correlation between coverage criteria (we put the inner correlation in the fifth sheet) and the step 6 will draw figure 8. 
 
-Feel free to use your own model, adversarial training different models and use different attacks to do different experiments. We are happy to see more convincing results from you. 
+
+
+Tips:
+
+1. For the measurement of LSA and DSA criteria, please refer to https://github.com/coinse/sadl. We use their original codes to test LSA and DSA of our models. 
+2. Feel free to use your own model, adversarial train different models and use different attacks to do different experiments. We are happy to see more results from you. 
 
 
 
