@@ -4,7 +4,7 @@
 
 We have put all data we use to generate figure 4 and figure 8 in 'correlation.xlsx'. 
 
-1. Download the dataset from google drive link:                  and put them in the 'data' folder. 
+1. Download the dataset from google drive link: https://drive.google.com/drive/folders/1WXqnuBT0FISMyYuYGShbjGwOxK7nHdGK?usp=sharing and put them in the 'data' folder. 
 
 2. Run 'correlation.py' to calculate the correlation between NC, TKNC, TKNP, KMNC, NBC, SNAC and robustness criteria. We have put the results of this step in the third sheet of 'correlation.xlsx'. 
 3. Run 'correlation_sadl.py' to calculate the correlation between DSA, LSA and robustness criteria. We also put the results of this step in the third sheet of 'correlation.xlsx'. 
@@ -18,7 +18,7 @@ We have put all data we use to generate figure 4 and figure 8 in 'correlation.xl
 
 - Step 0: dependencies.
 
-We use [clevenhans](https://github.com/tensorflow/cleverhans) to construct attacks, and use [adversarial-robustness-toolbox](https://github.com/IBM/adversarial-robustness-toolbox) to do adversarial training. You can install the required dependencies according to the [requirements.txt](https://github.com/Jethro85/AETesting/blob/master/requirements.txt) file. What's more, the models and the datasets we use during our experiments are shared through: https://drive.google.com/drive/folders/14BeWcJrmcq1sCcBUMejn24-_hAQljbQ4?usp=sharing. Please download them and put them under the 'data' folder. 
+We use [clevenhans](https://github.com/tensorflow/cleverhans) to construct attacks, and use [adversarial-robustness-toolbox](https://github.com/IBM/adversarial-robustness-toolbox) to do adversarial training. You can install the required dependencies according to the [requirements.txt](https://github.com/Jethro85/AETesting/blob/master/requirements.txt) file. What's more, the models and the datasets we use during our experiments are shared through: https://drive.google.com/drive/folders/1WXqnuBT0FISMyYuYGShbjGwOxK7nHdGK?usp=sharing. Please download them and put them under the 'data' folder. 
 
 - Step 1: Attack the models 
 
