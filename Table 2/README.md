@@ -3,7 +3,7 @@
 ---
 ## Quick Start:
 
-1. Download the dataset from google drive link:                  and put them in the 'data' folder. 
+1. Download the dataset from google drive link: https://drive.google.com/drive/folders/1WXqnuBT0FISMyYuYGShbjGwOxK7nHdGK?usp=sharing and merge them to the 'data' folder. Then download other data from google drive link: https://drive.google.com/drive/folders/1_j-z2FAd8tkfG6AbAEqg05C8InpAGUNm?usp=sharing and merge them to the 'data' folder again. There must be several files that have same names as the files from the first link, please use them to replace those from the first link. 
 
 2. We have put [commands](https://github.com/DNNTesting/CovTesting/blob/d462c59c1cbc00c2add20ee0eaf7a9966859788b/Table%202/test_example.sh#L32-L41) in 'test_example.sh'. Please uncomment the line comment and run 'test_example.sh' to get the corresponding result. The results will be stored in 'compare_result.txt'. 
 
@@ -13,7 +13,7 @@
 
 ## General Steps:
 
-1. Download the dataset from google drive link:                  and put them in the 'data' folder. 
+1. Download the dataset from google drive link: https://drive.google.com/drive/folders/1WXqnuBT0FISMyYuYGShbjGwOxK7nHdGK?usp=sharing and merge them to the 'data' folder. Then download other data from google drive link: https://drive.google.com/drive/folders/1_j-z2FAd8tkfG6AbAEqg05C8InpAGUNm?usp=sharing and merge them to the 'data' folder again. There must be several files that have same names as the files from the first link, please use them to replace those from the first link. 
 
 2. PGD attack the dataset: 
 
