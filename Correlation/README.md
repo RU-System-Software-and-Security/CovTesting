@@ -1,20 +1,44 @@
-# Figure 4 and figure 8
+# Correlation (Figure 4 and figure 8):
 
-## Quick Start
+## Quick Start Based on Our Data:
 
 We have put all data we use to generate figure 4 and figure 8 in 'correlation.xlsx'. 
 
 1. Download the dataset from google drive link: https://drive.google.com/drive/folders/1WXqnuBT0FISMyYuYGShbjGwOxK7nHdGK?usp=sharing and put them in the 'data' folder. 
 
-2. Run 'correlation.py' to calculate the correlation between NC, TKNC, TKNP, KMNC, NBC, SNAC and robustness criteria. We have put the results of this step in the third sheet of 'correlation.xlsx'. 
-3. Run 'correlation_sadl.py' to calculate the correlation between DSA, LSA and robustness criteria. We also put the results of this step in the third sheet of 'correlation.xlsx'. 
-4. Run 'hotpicture.py' to use results from step 2 and step 3 (the third sheet of 'correlation.xlsx') to generate the figure 4. The figure will be stored as 'ALL_ALL.eps'.
-5. Run 'inner_correlation.py' to calculate the correlation between coverage criteria. We have put the results of this step in the fifth sheet of 'correlation.xlsx'. 
-6. Run 'inner_hotpicture.py' to use results from step 5 (the fifth sheet of 'correlation.xlsx') to generate the figure 8. The figure will be stored as 'cov_ALL_ALL.eps'.
+2. Calculate the correlation between NC, TKNC, TKNP, KMNC, NBC, SNAC and robustness criteria:
+
+   ```$ python correlation.py ``` 
+
+   We have put the results of this step in the third sheet of 'correlation.xlsx'. 
+
+3. Calculate the correlation between DSA, LSA and robustness criteria:
+
+   ```$ python correlation_sadl.py ``` 
+
+   We also put the results of this step in the third sheet of 'correlation.xlsx'. 
+
+4. Use results from step 2 and step 3 (the third sheet of 'correlation.xlsx') to generate the figure 4:
+
+   ```$ python hotpicture.py ``` 
+
+   The figure will be stored as 'ALL_ALL.eps'.
+
+5. Calculate the correlation between coverage criteria:
+
+   ```$ python inner_correlation.py ``` 
+
+   We have put the results of this step in the fifth sheet of 'correlation.xlsx'. 
+
+6. Use results from step 5 (the fifth sheet of 'correlation.xlsx') to generate the figure 8:
+
+   ```$ python inner_hotpicture.py ``` 
+
+   The figure will be stored as 'cov_ALL_ALL.eps'.
 
 
 
-## General Steps:
+## Experiment on Your Own Data:
 
 - Step 0: dependencies.
 
@@ -22,7 +46,9 @@ The models and the datasets we use during our experiments are shared through: ht
 
 - Step 1: Attack the models 
 
-We have put commands in 'test_example.sh'. You can uncomment different commands to attack different models [here](https://github.com/DNNTesting/CovTesting/blob/f1be13587df8ae74bc36a02f0c48870013691bd3/Figure%204%20and%20figure%208/test_example.sh#L14-L37).
+We have put commands in 'test_example.sh'. You can uncomment different commands to attack different models [here](https://github.com/DNNTesting/CovTesting/blob/f1be13587df8ae74bc36a02f0c48870013691bd3/Figure%204%20and%20figure%208/test_example.sh#L14-L37). After uncomment, please run:
+
+```$ sh test_example.sh``` 
 
 For `-dataset` , you can select from 'mnist', 'cifar' or 'svhn'. 
 
@@ -38,13 +64,17 @@ The output results (adv test datasets) will be stored in folder 'data'.
 
 - Step 2: Evaluate the attacks
 
-We have put commands in 'test_example.sh'. You can uncomment different commands to evaluate different models [here](https://github.com/DNNTesting/CovTesting/blob/f1be13587df8ae74bc36a02f0c48870013691bd3/Figure%204%20and%20figure%208/test_example.sh#L40-L63).
+We have put commands in 'test_example.sh'. You can uncomment different commands to evaluate different models [here](https://github.com/DNNTesting/CovTesting/blob/f1be13587df8ae74bc36a02f0c48870013691bd3/Figure%204%20and%20figure%208/test_example.sh#L40-L63). After uncomment, please run:
+
+```$ sh test_example.sh``` 
 
 For the choices of `-dataset` `-model` and `-attack`, you can refer to Step 1. The evaluate results will be stored in "attack_evaluate_result.txt" file. 
 
 - Step 3: Calculate the Neuron Coverage of the model
 
-We have put commands in 'test_example.sh'. You can uncomment different commands to calculate coverage of different models [here](https://github.com/DNNTesting/CovTesting/blob/f1be13587df8ae74bc36a02f0c48870013691bd3/Figure%204%20and%20figure%208/test_example.sh#L66-L89).
+We have put commands in 'test_example.sh'. You can uncomment different commands to calculate coverage of different models [here](https://github.com/DNNTesting/CovTesting/blob/f1be13587df8ae74bc36a02f0c48870013691bd3/Figure%204%20and%20figure%208/test_example.sh#L66-L89). After uncomment, please run:
+
+```$ sh test_example.sh``` 
 
 For the choices of `-dataset` `-model` and `-attack`, you can refer to Step 1. For `-layer`, you can select any layer. The Neuron Coverage results will be stored in "coverage_result.txt" file. 
 
@@ -56,21 +86,31 @@ To train different models, you have to modify the [dataset and model_name](https
 
 - Step 5: Attack the adv models
 
-We have put commands in 'test_example.sh'. You can uncomment different commands to attack different adv models [here](https://github.com/DNNTesting/CovTesting/blob/f1be13587df8ae74bc36a02f0c48870013691bd3/Figure%204%20and%20figure%208/test_example.sh#L93-L116). The choices of `-dataset` `-model`  `-attack` and `-batch_size` are just like those in Step 1. But for `-model` , if the dataset is 'mnist', you should select from 'adv_lenet1', 'adv_lenet4' and 'adv_lenet5'; if the dataset is 'cifar', you should select from 'adv_vgg16' and 'adv_resnet20'; if the dataset is 'svhn', you can select from 'adv_svhn_model', 'adv_model_first' and 'adv_model_second'. The output results (test datasets) will be stored in folder 'data'
+We have put commands in 'test_example.sh'. You can uncomment different commands to attack different adv models [here](https://github.com/DNNTesting/CovTesting/blob/f1be13587df8ae74bc36a02f0c48870013691bd3/Figure%204%20and%20figure%208/test_example.sh#L93-L116).  After uncomment, please run:
+
+```$ sh test_example.sh``` 
+
+The choices of `-dataset` `-model`  `-attack` and `-batch_size` are just like those in Step 1. But for `-model` , if the dataset is 'mnist', you should select from 'adv_lenet1', 'adv_lenet4' and 'adv_lenet5'; if the dataset is 'cifar', you should select from 'adv_vgg16' and 'adv_resnet20'; if the dataset is 'svhn', you can select from 'adv_svhn_model', 'adv_model_first' and 'adv_model_second'. The output results (test datasets) will be stored in folder 'data'
 
 - Step 6: Evaluate the attacks of the adv models
 
-We have put commands in 'test_example.sh'. You can uncomment different commands to evaluate different adv models [here](https://github.com/DNNTesting/CovTesting/blob/f1be13587df8ae74bc36a02f0c48870013691bd3/Figure%204%20and%20figure%208/test_example.sh#L119-L142).
+We have put commands in 'test_example.sh'. You can uncomment different commands to evaluate different adv models [here](https://github.com/DNNTesting/CovTesting/blob/f1be13587df8ae74bc36a02f0c48870013691bd3/Figure%204%20and%20figure%208/test_example.sh#L119-L142). After uncomment, please run:
+
+```$ sh test_example.sh``` 
 
 Same, for `-model` , if the dataset is 'mnist', you should select from 'adv_lenet1', 'adv_lenet4' and 'adv_lenet5'; if the dataset is 'cifar', you should select from 'adv_vgg16' and 'adv_resnet20'; if the dataset is 'svhn', you can select from 'adv_svhn_model', 'adv_model_first' and 'adv_model_second'.  The results will also be stored in "attack_evaluate_result.txt" file. 
 
 - Step 7: Calculate the Neuron Coverage of the adv models
 
-We have put commands in 'test_example.sh'. You can uncomment different commands to calculate coverage of different models [here](https://github.com/DNNTesting/CovTesting/blob/f1be13587df8ae74bc36a02f0c48870013691bd3/Figure%204%20and%20figure%208/test_example.sh#L144-L167). The Neuron Coverage results will also be stored in "coverage_result.txt" file. 
+We have put commands in 'test_example.sh'. You can uncomment different commands to calculate coverage of different models [here](https://github.com/DNNTesting/CovTesting/blob/f1be13587df8ae74bc36a02f0c48870013691bd3/Figure%204%20and%20figure%208/test_example.sh#L144-L167). After uncomment, please run:
 
-- Step 8: Put all data from "coverage_result.txt" and "attack_evaluate_result.txt" in 'correlation.xlsx' and repeat the step 2- step 6 in "**Quick Start**" section to get figure 4 and figure 8. 
+```$ sh test_example.sh``` 
 
-We have put our "coverage_result.txt" and "attack_evaluate_result.txt" gotten from step 1 - step 7 in 'result_mnist', 'result_cifar' and 'result_svhn' folders. Then we input all of them into the 'correlation.xlsx'  (see the first, the second and the fourth sheets). The step 2 and step 3 in "**Quick Start**" section will use the first and the second sheets to calculate the correlation between coverage and robustness criteria (we put the correlation in the third sheet) and the step 4 will draw figure 4. The step 5 in "**Quick Start**" section will use the fourth sheet to calculate the inner correlation between coverage criteria (we put the inner correlation in the fifth sheet) and the step 6 will draw figure 8. 
+The Neuron Coverage results will also be stored in "coverage_result.txt" file. 
+
+- Step 8: Put all data from "coverage_result.txt" and "attack_evaluate_result.txt" in 'correlation.xlsx' and repeat the step 2- step 6 in "**Quick Start Based on Our Data**" section to get figure 4 and figure 8. 
+
+We have put our "coverage_result.txt" and "attack_evaluate_result.txt" gotten from step 1 - step 7 in 'result_mnist', 'result_cifar' and 'result_svhn' folders. Then we input all of them into the 'correlation.xlsx'  (see the first, the second and the fourth sheets). The step 2 and step 3 in "**Quick Start Based on Our Data**" section will use the first and the second sheets to calculate the correlation between coverage and robustness criteria (we put the correlation in the third sheet) and the step 4 will draw figure 4. The step 5 in "**Quick Start Based on Our Data**" section will use the fourth sheet to calculate the inner correlation between coverage criteria (we put the inner correlation in the fifth sheet) and the step 6 will draw figure 8. 
 
 
 
