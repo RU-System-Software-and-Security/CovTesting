@@ -2,7 +2,7 @@
 
 Codes for paper: Correlations Between Deep Neural Network Model Coverage Criteria and Model Quality
 
-## Dependencies and Acknowledgement:
+## Dependencies:
 
 1. [clevenhans](https://github.com/tensorflow/cleverhans)
 2. [adversarial-robustness-toolbox](https://github.com/IBM/adversarial-robustness-toolbox)
@@ -14,7 +14,7 @@ Codes for paper: Correlations Between Deep Neural Network Model Coverage Criteri
 
 Please install the required dependencies according to the [requirements.txt](https://github.com/DNNTesting/CovTesting/blob/master/requirements.txt) file. 
 
-```pip install -r requirements.txt```
+```$ pip install -r requirements.txt```
 
 
 
