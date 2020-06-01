@@ -5,9 +5,20 @@
 
 1. Download the dataset from google drive link: https://drive.google.com/drive/folders/1WXqnuBT0FISMyYuYGShbjGwOxK7nHdGK?usp=sharing and merge them to the 'data' folder. Then download other data from google drive link: https://drive.google.com/drive/folders/1_j-z2FAd8tkfG6AbAEqg05C8InpAGUNm?usp=sharing and merge them to the 'data' folder again. There must be several files that have same names as the files from the first link. Please replace those from the first link. 
 
-2. We have put [commands](https://github.com/DNNTesting/CovTesting/blob/d462c59c1cbc00c2add20ee0eaf7a9966859788b/Table%202/test_example.sh#L32-L41) in 'test_example.sh'. Please uncomment the line comment and run 'test_example.sh' to get the corresponding result. 
+2. We have put [commands](https://github.com/DNNTesting/CovTesting/blob/d462c59c1cbc00c2add20ee0eaf7a9966859788b/Table%202/test_example.sh#L32-L41) in 'test_example.sh' script for reference. Please run the following commands to get the comparison results of different models:
 
-   ```$ sh test_example.sh``` 
+   ```python
+   python criteria.py  -dataset mnist  -model lenet1
+   python criteria.py  -dataset mnist  -model lenet4
+   python criteria.py  -dataset mnist  -model lenet5
+   
+   python criteria.py  -dataset cifar  -model vgg16
+   python criteria.py  -dataset cifar  -model resnet20
+   
+   python criteria.py  -dataset svhn  -model svhn_model
+   python criteria.py  -dataset svhn  -model svhn_first
+   python criteria.py  -dataset svhn  -model svhn_second
+   ```
    
    The results will be stored in 'compare_result.txt'. 
    
@@ -19,22 +30,59 @@
 
 1. Download the dataset from google drive link: https://drive.google.com/drive/folders/1WXqnuBT0FISMyYuYGShbjGwOxK7nHdGK?usp=sharing and merge them to the 'data' folder. Then download other data from google drive link: https://drive.google.com/drive/folders/1_j-z2FAd8tkfG6AbAEqg05C8InpAGUNm?usp=sharing and merge them to the 'data' folder again. There must be several files that have same names as the files from the first link. Please replace those from the first link. 
 
+   We also provide 'test_example.sh' script as next several steps' reference.
+
 2. PGD attack the dataset: 
 
-   We have put [commands](https://github.com/DNNTesting/CovTesting/blob/d462c59c1cbc00c2add20ee0eaf7a9966859788b/Table%202/test_example.sh#L8-L17) of PGD attacking in 'test_example.sh'. Please uncomment the line comment and run 'test_example.sh' to implement the corresponding PGD attack. 
+   Please run the following commands to implement the PGD attack for different models:
 
-   ```$ sh test_example.sh``` 
+   ```python
+   python attack.py  -dataset mnist  -model lenet1 -attack PGD -batch_size 128
+   python attack.py  -dataset mnist  -model lenet4 -attack PGD -batch_size 128
+   python attack.py  -dataset mnist  -model lenet5 -attack PGD -batch_size 128
+   
+   python attack.py  -dataset cifar  -model vgg16 -attack PGD -batch_size 128
+   python attack.py  -dataset cifar  -model resnet20 -attack PGD -batch_size 128
+   
+   python attack.py  -dataset svhn  -model svhn_model -attack PGD -batch_size 128
+   python attack.py  -dataset svhn  -model svhn_first -attack PGD -batch_size 128
+   python attack.py  -dataset svhn  -model svhn_second -attack PGD -batch_size 128
+   ```
 
    Attacked dataset will be stored as ('./data/' + args.dataset + '_data/model/' + args.model  + _PGD.npy').
 
 3. Use DeepHunter to generate test cases:
-   We have put [commands](https://github.com/DNNTesting/CovTesting/blob/d462c59c1cbc00c2add20ee0eaf7a9966859788b/Table%202/test_example.sh#L20-L29) of DeepHunter in 'test_example.sh'. Please uncomment the line comment and run 'test_example.sh' to use DeepHunter to generate the corresponding test cases. 
+   Please run the following commands to use DeepHunter to generate the test cases for different models. 
 
-   ```$ sh test_example.sh``` 
+   ```python
+   python deephunter_attack.py  -dataset mnist  -model lenet1
+   python deephunter_attack.py  -dataset mnist  -model lenet4
+   python deephunter_attack.py  -dataset mnist  -model lenet5
    
-4. Use [commands](https://github.com/DNNTesting/CovTesting/blob/d462c59c1cbc00c2add20ee0eaf7a9966859788b/Table%202/test_example.sh#L32-L41) in 'test_example.sh' to compare DH and DP. Please uncomment the line comment and run 'test_example.sh' to get the corresponding result. 
+   python deephunter_attack.py  -dataset cifar  -model vgg16
+   python deephunter_attack.py  -dataset cifar  -model resnet20
+   
+   python deephunter_attack.py  -dataset svhn  -model svhn_model
+   python deephunter_attack.py  -dataset svhn  -model svhn_first
+   python deephunter_attack.py  -dataset svhn  -model svhn_second
+   ```
 
-   ```$ sh test_example.sh``` 
+4. Compare DH and DP:
+
+   Please run the following commands to compare DH and DP for different models. 
+
+   ```python
+   python criteria.py  -dataset mnist  -model lenet1
+   python criteria.py  -dataset mnist  -model lenet4
+   python criteria.py  -dataset mnist  -model lenet5
+   
+   python criteria.py  -dataset cifar  -model vgg16
+   python criteria.py  -dataset cifar  -model resnet20
+   
+   python criteria.py  -dataset svhn  -model svhn_model
+   python criteria.py  -dataset svhn  -model svhn_first
+   python criteria.py  -dataset svhn  -model svhn_second
+   ```
 
    The results will be stored in 'compare_result.txt'. 
 
