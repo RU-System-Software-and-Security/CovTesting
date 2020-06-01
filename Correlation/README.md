@@ -44,11 +44,37 @@ We have put all data we use to generate figure 4 and figure 8 in 'correlation.xl
 
    The models and the datasets we use during our experiments are shared through: https://drive.google.com/drive/folders/1WXqnuBT0FISMyYuYGShbjGwOxK7nHdGK?usp=sharing. Please download them and put them under the 'data' folder. You can train your own models and attack them and test the attack and coverage according to the following steps.
 
+   We also put commands in 'test_example.sh' script for reference.
+
 2. Attack the models:
 
-   We have put commands in 'test_example.sh'. You can uncomment different commands to attack different models [here](https://github.com/DNNTesting/CovTesting/blob/f1be13587df8ae74bc36a02f0c48870013691bd3/Figure%204%20and%20figure%208/test_example.sh#L14-L37). After uncomment, please run:
+   Please run the following commands to attack different models:
 
-   ```$ sh test_example.sh``` 
+   ```python
+   python attack.py  -dataset mnist  -model lenet1 -attack CW -batch_size 128
+   python attack.py  -dataset mnist  -model lenet1 -attack PGD -batch_size 128
+   
+   python attack.py  -dataset mnist  -model lenet4 -attack CW -batch_size 128
+   python attack.py  -dataset mnist  -model lenet4 -attack PGD -batch_size 128
+   
+   python attack.py  -dataset mnist  -model lenet5 -attack CW -batch_size 128
+   python attack.py  -dataset mnist  -model lenet5 -attack PGD -batch_size 128
+   
+   python attack.py  -dataset cifar  -model vgg16 -attack CW -batch_size 128
+   python attack.py  -dataset cifar  -model vgg16 -attack PGD -batch_size 128
+   
+   python attack.py  -dataset cifar  -model resnet20 -attack CW -batch_size 128
+   python attack.py  -dataset cifar  -model resnet20 -attack PGD -batch_size 128
+   
+   python attack.py  -dataset svhn  -model svhn_model -attack CW -batch_size 128
+   python attack.py  -dataset svhn  -model svhn_model -attack PGD -batch_size 128
+   
+   python attack.py  -dataset svhn  -model svhn_first -attack CW -batch_size 128
+   python attack.py  -dataset svhn  -model svhn_first -attack PGD -batch_size 128
+   
+   python attack.py  -dataset svhn  -model svhn_second -attack CW -batch_size 128
+   python attack.py  -dataset svhn  -model svhn_second -attack PGD -batch_size 128
+   ```
 
    For `-dataset` , you can select from 'mnist', 'cifar' or 'svhn'. 
 
@@ -64,48 +90,168 @@ We have put all data we use to generate figure 4 and figure 8 in 'correlation.xl
 
 3. Evaluate the attacks:
 
-   We have put commands in 'test_example.sh'. You can uncomment different commands to evaluate different models [here](https://github.com/DNNTesting/CovTesting/blob/f1be13587df8ae74bc36a02f0c48870013691bd3/Figure%204%20and%20figure%208/test_example.sh#L40-L63). After uncomment, please run:
+   Please run the following commands to evaluate different models:
 
-   ```$ sh test_example.sh``` 
+   ```python
+   python attack_evaluate.py  -dataset mnist  -model lenet1 -attack CW
+   python attack_evaluate.py  -dataset mnist  -model lenet1 -attack PGD
+   
+   python attack_evaluate.py  -dataset mnist  -model lenet4 -attack CW
+   python attack_evaluate.py  -dataset mnist  -model lenet4 -attack PGD
+   
+   python attack_evaluate.py  -dataset mnist  -model lenet5 -attack CW
+   python attack_evaluate.py  -dataset mnist  -model lenet5 -attack PGD
+   
+   python attack_evaluate_cifar.py  -dataset cifar  -model vgg16 -attack CW
+   python attack_evaluate_cifar.py  -dataset cifar  -model vgg16 -attack PGD
+   
+   python attack_evaluate_cifar.py  -dataset cifar  -model resnet20 -attack CW
+   python attack_evaluate_cifar.py  -dataset cifar  -model resnet20 -attack PGD
+   
+   python attack_evaluate.py  -dataset svhn  -model svhn_model -attack CW
+   python attack_evaluate.py  -dataset svhn  -model svhn_model -attack PGD
+   
+   python attack_evaluate.py  -dataset svhn  -model svhn_first -attack CW
+   python attack_evaluate.py  -dataset svhn  -model svhn_first -attack PGD
+   
+   python attack_evaluate.py  -dataset svhn  -model svhn_second -attack CW
+   python attack_evaluate.py  -dataset svhn  -model svhn_second -attack PGD
+   ```
 
-   For the choices of `-dataset` `-model` and `-attack`, you can refer to Step 1. The evaluate results will be stored in "attack_evaluate_result.txt" file. 
+   For the choices of `-dataset` `-model` and `-attack`, you can refer to Step 2. The evaluate results will be stored in "attack_evaluate_result.txt" file. 
 
 4. Calculate the Neuron Coverage of the model:
 
-   We have put commands in 'test_example.sh'. You can uncomment different commands to calculate coverage of different models [here](https://github.com/DNNTesting/CovTesting/blob/f1be13587df8ae74bc36a02f0c48870013691bd3/Figure%204%20and%20figure%208/test_example.sh#L66-L89). After uncomment, please run:
+   Please run the following commands to calculate coverage of different models:
 
-   ```$ sh test_example.sh``` 
+   ```python
+   python coverage.py  -dataset mnist  -model lenet1 -attack CW -layer 8
+   python coverage.py  -dataset mnist  -model lenet1 -attack PGD -layer 8
+   
+   python coverage.py  -dataset mnist  -model lenet4 -attack CW -layer 9
+   python coverage.py  -dataset mnist  -model lenet4 -attack PGD -layer 9
+   
+   python coverage.py  -dataset mnist  -model lenet5 -attack CW -layer 10
+   python coverage.py  -dataset mnist  -model lenet5 -attack PGD -layer 10
+   
+   python coverage_cifar.py  -dataset cifar  -model vgg16 -attack CW  -layer 55 -start_layer 0
+   python coverage_cifar.py  -dataset cifar  -model vgg16 -attack PGD -layer 55 -start_layer 0
+   
+   python coverage_cifar.py  -dataset cifar  -model resnet20 -attack CW -layer 70 -start_layer 1
+   python coverage_cifar.py  -dataset cifar  -model resnet20 -attack PGD -layer 70 -start_layer 1
+   
+   python coverage.py  -dataset svhn  -model svhn_model -attack CW -layer 18
+   python coverage.py  -dataset svhn  -model svhn_model -attack PGD -layer 18
+   
+   python coverage.py  -dataset svhn  -model svhn_first -attack CW -layer 14
+   python coverage.py  -dataset svhn  -model svhn_first -attack PGD -layer 14
+   
+   python coverage.py  -dataset svhn  -model svhn_second -attack CW -layer 32
+   python coverage.py  -dataset svhn  -model svhn_second -attack PGD -layer 32
+   ```
 
-   For the choices of `-dataset` `-model` and `-attack`, you can refer to Step 1. For `-layer`, you can select any layer. The Neuron Coverage results will be stored in "coverage_result.txt" file. 
+   For the choices of `-dataset` `-model` and `-attack`, you can refer to Step 2. For `-layer`, you can select any layer. The Neuron Coverage results will be stored in "coverage_result.txt" file. 
 
 
 5. Adversarial training the model:
 
    `$ python adv_train_example.py`
 
-   To train different models, you have to modify the [dataset and model_name](https://github.com/DNNTesting/CovTesting/blob/f1be13587df8ae74bc36a02f0c48870013691bd3/Figure%204%20and%20figure%208/adv_train_example.py#L36-L37). You can modify the adversarial training parameters [here](https://github.com/DNNTesting/CovTesting/blob/f1be13587df8ae74bc36a02f0c48870013691bd3/Figure%204%20and%20figure%208/adv_train_example.py#L69-L79). We have given the better parameters of retraining for different datasets (see our [comments](https://github.com/DNNTesting/CovTesting/blob/f1be13587df8ae74bc36a02f0c48870013691bd3/Figure%204%20and%20figure%208/adv_train_example.py#L69-L79)). Feel free to try different parameters. The adv trained model will be [stored in 'data' folder](https://github.com/DNNTesting/CovTesting/blob/f1be13587df8ae74bc36a02f0c48870013691bd3/Figure%204%20and%20figure%208/adv_train_example.py#L82). 
+   To train different models, you have to modify the [dataset and model_name](https://github.com/DNNTesting/CovTesting/blob/f1be13587df8ae74bc36a02f0c48870013691bd3/Figure%204%20and%20figure%208/adv_train_example.py#L36-L37). You can modify the adversarial training parameters [here](https://github.com/DNNTesting/CovTesting/blob/f1be13587df8ae74bc36a02f0c48870013691bd3/Figure%204%20and%20figure%208/adv_train_example.py#L69-L79). We have provided the better parameters of retraining for different datasets (see our [comments](https://github.com/DNNTesting/CovTesting/blob/f1be13587df8ae74bc36a02f0c48870013691bd3/Figure%204%20and%20figure%208/adv_train_example.py#L69-L79)). Feel free to try different parameters. The adv trained model will be [stored in 'data' folder](https://github.com/DNNTesting/CovTesting/blob/f1be13587df8ae74bc36a02f0c48870013691bd3/Figure%204%20and%20figure%208/adv_train_example.py#L82). 
 
 6. Attack the adv models:
 
-   We have put commands in 'test_example.sh'. You can uncomment different commands to attack different adv models [here](https://github.com/DNNTesting/CovTesting/blob/f1be13587df8ae74bc36a02f0c48870013691bd3/Figure%204%20and%20figure%208/test_example.sh#L93-L116).  After uncomment, please run:
+   Please run the following commands to attack different adv models:
 
-   ```$ sh test_example.sh``` 
+   ```python
+   python attack.py  -dataset mnist  -model adv_lenet1 -attack CW -batch_size 128
+   python attack.py  -dataset mnist  -model adv_lenet1 -attack PGD -batch_size 128
+   
+   python attack.py  -dataset mnist  -model adv_lenet4 -attack CW -batch_size 128
+   python attack.py  -dataset mnist  -model adv_lenet4 -attack PGD -batch_size 128
+   
+   python attack.py  -dataset mnist  -model adv_lenet5 -attack CW -batch_size 128
+   python attack.py  -dataset mnist  -model adv_lenet5 -attack PGD -batch_size 128
+   
+   python attack.py  -dataset cifar  -model adv_vgg16 -attack CW -batch_size 128
+   python attack.py  -dataset cifar  -model adv_vgg16 -attack PGD -batch_size 128
+   
+   python attack.py  -dataset cifar  -model adv_resnet20 -attack CW -batch_size 128
+   python attack.py  -dataset cifar  -model adv_resnet20 -attack PGD -batch_size 128
+   
+   python attack.py  -dataset svhn  -model adv_svhn_model -attack CW -batch_size 128
+   python attack.py  -dataset svhn  -model adv_svhn_model -attack PGD -batch_size 128
+   
+   python attack.py  -dataset svhn  -model adv_svhn_first -attack CW -batch_size 128
+   python attack.py  -dataset svhn  -model adv_svhn_first -attack PGD -batch_size 128
+   
+   python attack.py  -dataset svhn  -model adv_svhn_second -attack CW -batch_size 128
+   python attack.py  -dataset svhn  -model adv_svhn_second -attack PGD -batch_size 128
+   ```
 
-   The choices of `-dataset` `-model`  `-attack` and `-batch_size` are just like those in Step 1. But for `-model` , if the dataset is 'mnist', you should select from 'adv_lenet1', 'adv_lenet4' and 'adv_lenet5'; if the dataset is 'cifar', you should select from 'adv_vgg16' and 'adv_resnet20'; if the dataset is 'svhn', you can select from 'adv_svhn_model', 'adv_model_first' and 'adv_model_second'. The output results (test datasets) will be stored in folder 'data'
+   The choices of `-dataset` `-model`  `-attack` and `-batch_size` are just like those in Step 2. But for `-model` , if the dataset is 'mnist', you should select from 'adv_lenet1', 'adv_lenet4' and 'adv_lenet5'; if the dataset is 'cifar', you should select from 'adv_vgg16' and 'adv_resnet20'; if the dataset is 'svhn', you can select from 'adv_svhn_model', 'adv_model_first' and 'adv_model_second'. The output results (test datasets) will be stored in folder 'data'
 
 7. Evaluate the attacks of the adv models:
 
-   We have put commands in 'test_example.sh'. You can uncomment different commands to evaluate different adv models [here](https://github.com/DNNTesting/CovTesting/blob/f1be13587df8ae74bc36a02f0c48870013691bd3/Figure%204%20and%20figure%208/test_example.sh#L119-L142). After uncomment, please run:
+   Please run the following commands to evaluate different adv models:
 
-   ```$ sh test_example.sh``` 
+   ```python
+   python attack_evaluate.py  -dataset mnist  -model adv_lenet1 -attack CW
+   python attack_evaluate.py  -dataset mnist  -model adv_lenet1 -attack PGD
+   
+   python attack_evaluate.py  -dataset mnist  -model adv_lenet4 -attack CW
+   python attack_evaluate.py  -dataset mnist  -model adv_lenet4 -attack PGD
+   
+   python attack_evaluate.py  -dataset mnist  -model adv_lenet5 -attack CW
+   python attack_evaluate.py  -dataset mnist  -model adv_lenet5 -attack PGD
+   
+   python attack_evaluate_cifar.py  -dataset cifar  -model adv_vgg16 -attack CW
+   python attack_evaluate_cifar.py  -dataset cifar  -model adv_vgg16 -attack PGD
+   
+   python attack_evaluate_cifar.py  -dataset cifar  -model adv_resnet20 -attack CW
+   python attack_evaluate_cifar.py  -dataset cifar  -model adv_resnet20 -attack PGD
+   
+   python attack_evaluate.py  -dataset svhn  -model adv_svhn_model -attack CW
+   python attack_evaluate.py  -dataset svhn  -model adv_svhn_model -attack PGD
+   
+   python attack_evaluate.py  -dataset svhn  -model adv_svhn_first -attack CW
+   python attack_evaluate.py  -dataset svhn  -model adv_svhn_first -attack PGD
+   
+   python attack_evaluate.py  -dataset svhn  -model adv_svhn_second -attack CW
+   python attack_evaluate.py  -dataset svhn  -model adv_svhn_second -attack PGD
+   ```
 
    Same, for `-model` , if the dataset is 'mnist', you should select from 'adv_lenet1', 'adv_lenet4' and 'adv_lenet5'; if the dataset is 'cifar', you should select from 'adv_vgg16' and 'adv_resnet20'; if the dataset is 'svhn', you can select from 'adv_svhn_model', 'adv_model_first' and 'adv_model_second'.  The results will also be stored in "attack_evaluate_result.txt" file. 
 
 8. Calculate the Neuron Coverage of the adv models:
 
-   We have put commands in 'test_example.sh'. You can uncomment different commands to calculate coverage of different models [here](https://github.com/DNNTesting/CovTesting/blob/f1be13587df8ae74bc36a02f0c48870013691bd3/Figure%204%20and%20figure%208/test_example.sh#L144-L167). After uncomment, please run:
+   Please run the following commands to calculate coverage of different models:
 
-   ```$ sh test_example.sh``` 
+   ```python
+   python coverage.py  -dataset mnist  -model adv_lenet1 -attack CW -layer 8
+   python coverage.py  -dataset mnist  -model adv_lenet1 -attack PGD -layer 8
+   
+   python coverage.py  -dataset mnist  -model adv_lenet4 -attack CW -layer 9
+   python coverage.py  -dataset mnist  -model adv_lenet4 -attack PGD -layer 9
+   
+   python coverage.py  -dataset mnist  -model adv_lenet5 -attack CW -layer 10
+   python coverage.py  -dataset mnist  -model adv_lenet5 -attack PGD -layer 10
+   
+   python coverage_cifar.py  -dataset cifar  -model adv_vgg16 -attack CW  -layer 55 -start_layer 0
+   python coverage_cifar.py  -dataset cifar  -model adv_vgg16 -attack PGD -layer 55 -start_layer 0
+   
+   python coverage_cifar.py  -dataset cifar  -model adv_resnet20 -attack CW -layer 70 -start_layer 1
+   python coverage_cifar.py  -dataset cifar  -model adv_resnet20 -attack PGD -layer 70 -start_layer 1
+   
+   python coverage.py  -dataset svhn  -model adv_svhn_model -attack CW -layer 18
+   python coverage.py  -dataset svhn  -model adv_svhn_model -attack PGD -layer 18
+   
+   python coverage.py  -dataset svhn  -model adv_svhn_first -attack CW -layer 14
+   python coverage.py  -dataset svhn  -model adv_svhn_first -attack PGD -layer 14
+   
+   python coverage.py  -dataset svhn  -model adv_svhn_second -attack CW -layer 32
+   python coverage.py  -dataset svhn  -model adv_svhn_second -attack PGD -layer 32
+   ```
 
    The Neuron Coverage results will also be stored in "coverage_result.txt" file. 
 
