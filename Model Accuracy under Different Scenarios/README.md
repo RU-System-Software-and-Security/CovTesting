@@ -13,7 +13,7 @@
    
    To understand the meaning of the numbers in 'result.txt', we can take 'the result of cifar vgg16' as an example. The numbers after 'Benign-dh' is the numbers at the 8th row and the 3rd column in Table 3. The numbers after 'DH-dh' is the numbers at the 8th row and the 4th column. The numbers after 'PGD-dh' is the numbers at the 8th row and the 5th column. The numbers after 'DH-pgd' is the numbers at the 10th row and the 4th column. As for the numbers at the 10th row and the 3rd column and the numbers at the 10th row and the 5th column in Table 3, they can be gotten from the data used to generate Figure 4. 
    
-   > (We only keep the original models and datasets we used to get the results of CIFAR VGG16 and SVHN SADL-1. But users can generate their own models and datasets to get the similar results according to the steps in the following 'General Steps' section. We will take the steps to generate the results of MNIST LeNet-1 as an example.)
+   *(We only keep the original models and datasets we used to get the results of CIFAR VGG16 and SVHN SADL-1. But users can generate their own models and datasets to get the similar results according to the steps in the following 'Experiment on Your Own Data' section. We will take the steps to generate the results of MNIST LeNet-1 as an example.)*
 
 
 
