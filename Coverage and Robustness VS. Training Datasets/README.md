@@ -1,4 +1,4 @@
-# Coverage and Robustness VS. Training Datasets (Figure 2 and figure 3):
+# Coverage and Robustness VS. Training Datasets (Figure 2 and figure 3)
 
 ## Quick Start Based on Our Data:
 
