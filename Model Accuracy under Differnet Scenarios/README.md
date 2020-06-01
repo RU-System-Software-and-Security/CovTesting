@@ -1,4 +1,4 @@
-﻿# Table 3
+﻿# Model Accuracy under Different Scenarios (Table 3)
 
 ---
 ## Quick Start:
