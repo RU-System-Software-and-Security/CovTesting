@@ -1,4 +1,4 @@
-# Correlation (Figure 4 and figure 8):
+# Correlation (Figure 4 and figure 8)
 
 ## Quick Start Based on Our Data:
 
