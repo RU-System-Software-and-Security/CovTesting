@@ -8,7 +8,15 @@ Please install the required dependencies according to the [requirements.txt](htt
 
 ```$ pip install -r requirements.txt```
 
+## Structure:
 
+CovTesting:
 
+​		|
 
+​		|-----------
+
+​		|-----------
+
+​		|-----------
 
