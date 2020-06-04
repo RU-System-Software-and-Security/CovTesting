@@ -1,8 +1,10 @@
-Author:                                                            email:                                              github ids:
+Author: Shenao Yan (corresponding author)
 
-Shenao Yan (corresponding author)          shenao.yan@rutgers.edu            https://github.com/DNNTesting
+email: shenao.yan@rutgers.edu                                        
 
-​                                                                                                                                  or https://github.com/Jethro85                                                                                                                                  
+
+
+github ids: DNNTesting (https://github.com/DNNTesting) and Jethro85 (https://github.com/Jethro85)                                                                                                                              
 
 
 
