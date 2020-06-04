@@ -12,11 +12,11 @@ Please install the required dependencies according to the [requirements.txt](htt
 
 CovTesting:
 
-​		|
+&emsp;&emsp;|
 
-​		|-----------
+&emsp;&emsp;|-----------
 
-​		|-----------
+&emsp;&emsp;|-----------
 
-​		|-----------
+&emsp;&emsp;|-----------
 
