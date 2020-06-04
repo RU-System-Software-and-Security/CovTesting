@@ -24,3 +24,11 @@ CovTesting:
 
 &emsp;&emsp;|-----------> ['Model Accuracy under Different Scenarios' folder](https://github.com/DNNTesting/CovTesting/tree/master/Model%20Accuracy%20under%20Different%20Scenarios): Codes for model accuracy under different scenarios (Table 3)
 
+&emsp;&emsp;|-----------> CONTACT.md
+
+&emsp;&emsp;|-----------> README.md
+
+&emsp;&emsp;|-----------> [esecfse2020-paper53.pdf](https://github.com/DNNTesting/CovTesting/blob/master/esecfse2020-paper53.pdf): A copy of our accepted paper
+
+&emsp;&emsp;|-----------> [requirements.txt](https://github.com/DNNTesting/CovTesting/blob/master/requirements.txt): Required dependencies
+
