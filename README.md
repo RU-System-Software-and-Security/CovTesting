@@ -26,7 +26,13 @@ CovTesting:
 
 &emsp;&emsp;|-----------> CONTACT.md
 
+&emsp;&emsp;|-----------> INSTALL.md
+
+&emsp;&emsp;|-----------> LICENSE.md
+
 &emsp;&emsp;|-----------> README.md
+
+&emsp;&emsp;|-----------> STATUS.md
 
 &emsp;&emsp;|-----------> [esecfse2020-paper53.pdf](https://github.com/DNNTesting/CovTesting/blob/master/esecfse2020-paper53.pdf): A copy of our accepted paper
 
