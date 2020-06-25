@@ -24,6 +24,8 @@ CovTesting:
 
 &emsp;&emsp;|-----------> ['Model Accuracy under Different Scenarios' folder](https://github.com/DNNTesting/CovTesting/tree/master/Model%20Accuracy%20under%20Different%20Scenarios): Codes for model accuracy under different scenarios (Table 3)
 
+&emsp;&emsp;|-----------> ['data' folder](https://github.com/DNNTesting/CovTesting/tree/master/data): Reserved data folder for 'Correlation', 'Coverage VS. # Adv Examples' and 'Coverage and Robustness VS. Training Datasets'
+
 &emsp;&emsp;|-----------> CONTACT.md
 
 &emsp;&emsp;|-----------> INSTALL.md
