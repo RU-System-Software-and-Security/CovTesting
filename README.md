@@ -44,5 +44,8 @@ CovTesting:
 
 &emsp;&emsp;|-----------> [esecfse2020-paper53.pdf](https://github.com/DNNTesting/CovTesting/blob/master/esecfse2020-paper53.pdf): A copy of our accepted paper
 
-&emsp;&emsp;|-----------> [requirements.txt](https://github.com/DNNTesting/CovTesting/blob/master/requirements.txt): Required dependencies
+&emsp;&emsp;|-----------> [requirements.txt](https://github.com/DNNTesting/CovTesting/blob/master/requirements.txt): Required dependencies]
 
+
+
+## Before Start (Prepare the Data Used in Experiments):
