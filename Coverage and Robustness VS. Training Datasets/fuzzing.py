@@ -289,10 +289,10 @@ def mutate(img):
 def load_data(name):
     assert (name.upper() in ['MNIST', 'CIFAR', 'SVHN'])
     name = name.lower()
-    x_train = np.load('./data/' + name + '_data/' + name + '_x_train.npy')
-    y_train = np.load('./data/' + name + '_data/' + name + '_y_train.npy')
-    x_test = np.load('./data/' + name + '_data/' + name + '_x_test.npy')
-    y_test = np.load('./data/' + name + '_data/' + name + '_y_test.npy')
+    x_train = np.load('../data/' + name + '_data/' + name + '_x_train.npy')
+    y_train = np.load('../data/' + name + '_data/' + name + '_y_train.npy')
+    x_test = np.load('../data/' + name + '_data/' + name + '_x_test.npy')
+    y_test = np.load('../data/' + name + '_data/' + name + '_y_test.npy')
     return x_train, y_train, x_test, y_test
 
 def softmax(x):
@@ -325,7 +325,7 @@ if __name__ == '__main__':
 
     # import model
     from keras.models import load_model
-    model = load_model('./data/' + 'mnist' + '_data/model/' + model_name + '.h5')
+    model = load_model('../data/' + 'mnist' + '_data/model/' + model_name + '.h5')
     model.summary()
 
     # print(x_test[:1].shape)
@@ -333,7 +333,7 @@ if __name__ == '__main__':
     # print(softmax(model.predict(np.expand_dims(x_test[0], axis=0))).argmax(axis=-1))
     # print(y_test[0])
 
-    order_number = 9
+    order_number = 0
 
     nc_index = {}
     nc_number = 0
