@@ -4,9 +4,15 @@ Codes for paper: Correlations Between Deep Neural Network Model Coverage Criteri
 
 ## Dependencies:
 
-Please install the required dependencies according to the [requirements.txt](https://github.com/DNNTesting/CovTesting/blob/master/requirements.txt) file. 
+The experiments are run in python 3.6 or 3.7 under ubuntu 18.04.  
+
+Way 1: Install the required dependencies according to the [requirements.txt](https://github.com/DNNTesting/CovTesting/blob/master/requirements.txt) file. 
 
 ```$ pip install -r requirements.txt```
+
+Way 2: Get environment with preinstalled dependencies using docker: 
+
+
 
 ## Structure:
 
