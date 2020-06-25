@@ -25,10 +25,10 @@ sess = tf.Session(config=config)
 def load_data(name):
     assert (name.upper() in ['MNIST', 'CIFAR', 'SVHN'])
     name = name.lower()
-    x_train = np.load('./data/' + name + '_data/' + name + '_x_train.npy')
-    y_train = np.load('./data/' + name + '_data/' + name + '_y_train.npy')
-    x_test = np.load('./data/' + name + '_data/' + name + '_x_test.npy')
-    y_test = np.load('./data/' + name + '_data/' + name + '_y_test.npy')
+    x_train = np.load('../data/' + name + '_data/' + name + '_x_train.npy')
+    y_train = np.load('../data/' + name + '_data/' + name + '_y_train.npy')
+    x_test = np.load('../data/' + name + '_data/' + name + '_x_test.npy')
+    y_test = np.load('../data/' + name + '_data/' + name + '_y_test.npy')
     return x_train, y_train, x_test, y_test
 
 
@@ -46,7 +46,7 @@ if __name__ == "__main__":
 
 
     from keras.models import load_model
-    model = load_model('./data/' + dataset + '_data/model/' + model_name + '.h5')
+    model = load_model('../data/' + dataset + '_data/model/' + model_name + '.h5')
 
     # ## for svhn model
     # from util import get_model
@@ -89,7 +89,7 @@ if __name__ == "__main__":
     trainer = AdversarialTrainer(classifier, attack, ratio=1.0)
     trainer.fit(x_train, y_train, nb_epochs=60, batch_size=1024)
 
-    classifier.save(filename='adv_' + model_name + '.h5', path='data/' + dataset + '_data/model/')
+    classifier.save(filename='adv_' + model_name + '.h5', path='../data/' + dataset + '_data/model/')
 
     # Evaluate the adversarially trained model on clean test set
     labels_true = np.argmax(y_test, axis=1)

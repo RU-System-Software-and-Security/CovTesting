@@ -35,10 +35,10 @@ def get_layer_i_output(model, i, data):
 def load_data(name):
     assert (name.upper() in ['MNIST', 'CIFAR', 'SVHN'])
     name = name.lower()
-    x_train = np.load('./data/' + name + '_data/' + name + '_x_train.npy')
-    y_train = np.load('./data/' + name + '_data/' + name + '_y_train.npy')
-    x_test = np.load('./data/' + name + '_data/' + name + '_x_test.npy')
-    y_test = np.load('./data/' + name + '_data/' + name + '_y_test.npy')
+    x_train = np.load('../data/' + name + '_data/' + name + '_x_train.npy')
+    y_train = np.load('../data/' + name + '_data/' + name + '_y_train.npy')
+    x_test = np.load('../data/' + name + '_data/' + name + '_x_test.npy')
+    y_test = np.load('../data/' + name + '_data/' + name + '_y_test.npy')
     return x_train, y_train, x_test, y_test
 
 
@@ -258,7 +258,7 @@ if __name__ == '__main__':
     # ## load mine trained model
     from keras.models import load_model
 
-    model = load_model('./data/' + args.dataset + '_data/model/' + args.model + '.h5')
+    model = load_model('../data/' + args.dataset + '_data/model/' + args.model + '.h5')
     model.summary()
 
     #evaluate = AttackEvaluate(model, x_test, y_test, x_adv)
