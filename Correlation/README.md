@@ -84,7 +84,7 @@ We have put all data we use to generate figure 4 and figure 8 in 'correlation.xl
 
    For `-batch_size` , you can use any number. The default value of batch size is 2048.
 
-   You can modify the 'PGD' attack parameters [here](https://github.com/DNNTesting/CovTesting/blob/f1be13587df8ae74bc36a02f0c48870013691bd3/Figure%204%20and%20figure%208/attack.py#L163-L186) and 'CW' attack parameters [here](https://github.com/DNNTesting/CovTesting/blob/f1be13587df8ae74bc36a02f0c48870013691bd3/Figure%204%20and%20figure%208/attack.py#L125-L134). 
+   You can modify the 'PGD' attack parameters [here](https://github.com/DNNTesting/CovTesting/blob/376db4080aff0ec52d3b9d773e61d3bba47d7124/Correlation/attack.py#L163-L187) and 'CW' attack parameters [here](https://github.com/DNNTesting/CovTesting/blob/376db4080aff0ec52d3b9d773e61d3bba47d7124/Correlation/attack.py#L125-L134). 
 
    The output results (adv test datasets) will be stored in folder 'data'.
 
@@ -157,7 +157,7 @@ We have put all data we use to generate figure 4 and figure 8 in 'correlation.xl
 
    `$ python adv_train_example.py`
 
-   To train different models, you have to modify the [dataset and model_name](https://github.com/DNNTesting/CovTesting/blob/f1be13587df8ae74bc36a02f0c48870013691bd3/Figure%204%20and%20figure%208/adv_train_example.py#L36-L37). You can modify the adversarial training parameters [here](https://github.com/DNNTesting/CovTesting/blob/f1be13587df8ae74bc36a02f0c48870013691bd3/Figure%204%20and%20figure%208/adv_train_example.py#L69-L79). We have provided the better parameters of retraining for different datasets (see our [comments](https://github.com/DNNTesting/CovTesting/blob/f1be13587df8ae74bc36a02f0c48870013691bd3/Figure%204%20and%20figure%208/adv_train_example.py#L69-L79)). Feel free to try different parameters. The adv trained model will be [stored in 'data' folder](https://github.com/DNNTesting/CovTesting/blob/f1be13587df8ae74bc36a02f0c48870013691bd3/Figure%204%20and%20figure%208/adv_train_example.py#L82). 
+   To train different models, you have to modify the [dataset and model_name](https://github.com/DNNTesting/CovTesting/blob/376db4080aff0ec52d3b9d773e61d3bba47d7124/Correlation/adv_train_example.py#L36-L37). You can modify the adversarial training parameters [here](https://github.com/DNNTesting/CovTesting/blob/376db4080aff0ec52d3b9d773e61d3bba47d7124/Correlation/adv_train_example.py#L69-L79). We have provided the better parameters of retraining for different datasets (see our [comments](https://github.com/DNNTesting/CovTesting/blob/376db4080aff0ec52d3b9d773e61d3bba47d7124/Correlation/adv_train_example.py#L69-L79)). Feel free to try different parameters. The adv trained model will be [stored in 'data' folder](https://github.com/DNNTesting/CovTesting/blob/376db4080aff0ec52d3b9d773e61d3bba47d7124/Correlation/adv_train_example.py#L92). 
 
 6. Attack the adv models:
 
