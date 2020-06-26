@@ -2,7 +2,7 @@
 
 ## Quick Start Based on Our Data:
 
-1. Download the dataset from google drive link: https://drive.google.com/drive/folders/1WXqnuBT0FISMyYuYGShbjGwOxK7nHdGK?usp=sharing and merge them to the 'data' folder. The fuzzing data we use to generate figure 2 and figure 3 are stored in 'fuzzing' folder. The retrained model we use to generate figure 3 are stored in 'new_model' folder. 
+1. Before the experiment, please be sure that the data is well prepared according to the tutorial in the main page of the repository. The fuzzing data we use to generate figure 2 and figure 3 are stored in 'fuzzing' folder. The retrained model we use to generate figure 3 are stored in 'new_model' folder. 
 
 2. Generate the data used to get figure 2:
 
@@ -20,7 +20,7 @@
 
 ## Experiment on Your Own Data:
 
-1. Download the dataset from google drive link: https://drive.google.com/drive/folders/1WXqnuBT0FISMyYuYGShbjGwOxK7nHdGK?usp=sharing and merge them to the 'data' folder.
+1. Before the experiment, please be sure that the data is well prepared according to the tutorial in the main page of the repository.
 
 2. Generate new training data to be added to the original training dataset:
 
