@@ -3,7 +3,7 @@
 ---
 ## Quick Start Based on Our Data:
 
-1. Please be sure that the data is well prepared according to the tutorial in the main page of the repository.
+1. Before the experiment, please be sure that the data is well prepared according to the tutorial in the main page of the repository.
 
 2. We have put [commands](https://github.com/DNNTesting/CovTesting/blob/d462c59c1cbc00c2add20ee0eaf7a9966859788b/Table%202/test_example.sh#L32-L41) in 'test_example.sh' script for reference. Please run the following commands to get the comparison results of different models:
 
@@ -28,7 +28,7 @@
 
 ## Experiment on Your Own Data:
 
-1. Please be sure that the data is well prepared according to the tutorial in the main page of the repository.
+1. Before the experiment, please be sure that the data is well prepared according to the tutorial in the main page of the repository.
 
    
 
