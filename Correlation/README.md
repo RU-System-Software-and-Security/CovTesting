@@ -4,7 +4,7 @@
 
 We have put all data we use to generate figure 4 and figure 8 in 'correlation.xlsx'. 
 
-1. Download the dataset from google drive link: https://drive.google.com/drive/folders/1WXqnuBT0FISMyYuYGShbjGwOxK7nHdGK?usp=sharing and put them in the 'data' folder. 
+1. Before the experiment, please be sure that the data is well prepared according to the tutorial in the main page of the repository.
 
 2. Calculate the correlation between NC, TKNC, TKNP, KMNC, NBC, SNAC and robustness criteria:
 
@@ -40,11 +40,11 @@ We have put all data we use to generate figure 4 and figure 8 in 'correlation.xl
 
 ## Experiment on Your Own Data:
 
-1. Dependencies:
+1. Before the experiment, please be sure that the data is well prepared according to the tutorial in the main page of the repository.
 
-   The models and the datasets we use during our experiments are shared through: https://drive.google.com/drive/folders/1WXqnuBT0FISMyYuYGShbjGwOxK7nHdGK?usp=sharing. Please download them and put them under the 'data' folder. You can train your own models and attack them and test the attack and coverage according to the following steps.
+   
 
-   We also put commands in 'test_example.sh' script for reference.
+   You can train your own models and attack them and test the attack and coverage according to the following steps. We also put commands in 'test_example.sh' script for reference.
 
 2. Attack the models:
 
@@ -157,7 +157,7 @@ We have put all data we use to generate figure 4 and figure 8 in 'correlation.xl
 
    `$ python adv_train_example.py`
 
-   To train different models, you have to modify the [dataset and model_name](https://github.com/DNNTesting/CovTesting/blob/376db4080aff0ec52d3b9d773e61d3bba47d7124/Correlation/adv_train_example.py#L36-L37). You can modify the adversarial training parameters [here](https://github.com/DNNTesting/CovTesting/blob/376db4080aff0ec52d3b9d773e61d3bba47d7124/Correlation/adv_train_example.py#L69-L79). We have provided the better parameters of retraining for different datasets (see our [comments](https://github.com/DNNTesting/CovTesting/blob/376db4080aff0ec52d3b9d773e61d3bba47d7124/Correlation/adv_train_example.py#L69-L79)). Feel free to try different parameters. The adv trained model will be [stored in 'data' folder](https://github.com/DNNTesting/CovTesting/blob/376db4080aff0ec52d3b9d773e61d3bba47d7124/Correlation/adv_train_example.py#L92). 
+   To train different models, you have to modify the [dataset and model_name](https://github.com/DNNTesting/CovTesting/blob/376db4080aff0ec52d3b9d773e61d3bba47d7124/Correlation/adv_train_example.py#L36-L37). You can modify the adversarial training parameters [here](https://github.com/DNNTesting/CovTesting/blob/376db4080aff0ec52d3b9d773e61d3bba47d7124/Correlation/adv_train_example.py#L69-L79). We have provided the better parameters of retraining for different datasets (see our [comments](https://github.com/DNNTesting/CovTesting/blob/376db4080aff0ec52d3b9d773e61d3bba47d7124/Correlation/adv_train_example.py#L69-L79)). Feel free to try different parameters. The adv trained model will be [stored in 'data' folder in main page](https://github.com/DNNTesting/CovTesting/blob/376db4080aff0ec52d3b9d773e61d3bba47d7124/Correlation/adv_train_example.py#L92). 
 
 6. Attack the adv models:
 
