@@ -3,7 +3,7 @@
 ---
 ## Quick Start Based on Our Data:
 
-1. Download the dataset from google drive link: https://drive.google.com/drive/folders/1WXqnuBT0FISMyYuYGShbjGwOxK7nHdGK?usp=sharing and merge them to the 'data' folder. Then download other data from google drive link: https://drive.google.com/drive/folders/1-QppLvGt2LdTd9OJIRSUYz_wpcNg7Wcu?usp=sharing and merge them to the 'data' folder again and 'new_model' folder, respectively. For the datasets to be put in 'data' folder, there must be several files that have same names as the files from the first link. Please replace those from the first link. 
+1. Before the experiment, please be sure that the data is well prepared according to the tutorial in the main page of the repository.
 
 2. We have put [commands](https://github.com/DNNTesting/CovTesting/blob/59c3005040dae76c5531a224ce2ce45696b385d3/Model%20Accuracy%20under%20Different%20Scenarios/test_example.sh#L7-L16)  in 'test_example.sh' script for reference. To get the results of model accuracy under different scenarios for CIFAR VGG16 model and SVHN SADL-1 model, please run the following commands:
 
@@ -23,7 +23,7 @@
 
 ## Experiment on Your Own Data (Use LeNet1 model as example):
 
-1. Download the dataset from google drive link: https://drive.google.com/drive/folders/1WXqnuBT0FISMyYuYGShbjGwOxK7nHdGK?usp=sharing and merge them to the 'data' folder. Then download other data from google drive link: https://drive.google.com/drive/folders/1-QppLvGt2LdTd9OJIRSUYz_wpcNg7Wcu?usp=sharing and merge them to the 'data' folder again and 'new_model' folder, respectively. For the datasets to be put in 'data' folder, there must be several files that have same names as the files from the first link. Please replace those from the first link. 
+1. Before the experiment, please be sure that the data is well prepared according to the tutorial in the main page of the repository.
 
 2. Generate new training data to be added to the original training dataset using Deephunter:
 
