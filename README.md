@@ -56,6 +56,8 @@ CovTesting:
 
 &emsp;&emsp;|-----------> [esecfse2020-paper53.pdf](https://github.com/DNNTesting/CovTesting/blob/master/esecfse2020-paper53.pdf): A copy of our accepted paper
 
+&emsp;&emsp;|-----------> index.md
+
 &emsp;&emsp;|-----------> [requirements.txt](https://github.com/DNNTesting/CovTesting/blob/master/requirements.txt): Required dependencies]
 
 
