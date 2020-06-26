@@ -3,7 +3,7 @@
 ---
 ## General Steps:
 
-1. Download the dataset from google drive link: https://drive.google.com/drive/folders/1WXqnuBT0FISMyYuYGShbjGwOxK7nHdGK?usp=sharing and merge them to the 'data' folder.
+1. Before the experiment, please be sure that the data is well prepared according to the tutorial in the main page of the repository.
 
 2. Get the results of coverage metrics change with numbers of adversarial examples (figure 6):
 
