@@ -3,7 +3,7 @@
 ---
 ## Quick Start Based on Our Data:
 
-1. Download the dataset from google drive link: https://drive.google.com/drive/folders/1WXqnuBT0FISMyYuYGShbjGwOxK7nHdGK?usp=sharing and merge them to the 'data' folder. Then download other data from google drive link: https://drive.google.com/drive/folders/1_j-z2FAd8tkfG6AbAEqg05C8InpAGUNm?usp=sharing and merge them to the 'data' folder again. There must be several files that have same names as the files from the first link. Please replace those from the first link. 
+1. Please be sure that the data is well prepared according to the tutorial in the main page of the repository.
 
 2. We have put [commands](https://github.com/DNNTesting/CovTesting/blob/d462c59c1cbc00c2add20ee0eaf7a9966859788b/Table%202/test_example.sh#L32-L41) in 'test_example.sh' script for reference. Please run the following commands to get the comparison results of different models:
 
@@ -28,7 +28,9 @@
 
 ## Experiment on Your Own Data:
 
-1. Download the dataset from google drive link: https://drive.google.com/drive/folders/1WXqnuBT0FISMyYuYGShbjGwOxK7nHdGK?usp=sharing and merge them to the 'data' folder. Then download other data from google drive link: https://drive.google.com/drive/folders/1_j-z2FAd8tkfG6AbAEqg05C8InpAGUNm?usp=sharing and merge them to the 'data' folder again. There must be several files that have same names as the files from the first link. Please replace those from the first link. 
+1. Please be sure that the data is well prepared according to the tutorial in the main page of the repository.
+
+   
 
    We also provide 'test_example.sh' script as next several steps' reference.
 
