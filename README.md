@@ -68,7 +68,7 @@ CovTesting:
 
 Step 1: Download data:
 
-Download data from Google Drive link: https://drive.google.com/drive/folders/16w93LPkaF0AP9QxIty9Y6ipU-N4cbPUd?usp=sharing. You will get three zip files named 'data-002.zip' (4.1 G), 'Table 2 data-001. zip' (3.5 G) and 'Table 3 data-003.zip' (4.6 G). 
+Download data from Google Drive link: https://drive.google.com/drive/folders/16w93LPkaF0AP9QxIty9Y6ipU-N4cbPUd?usp=sharing. (You can also download the data through DOI shown above). You will get three zip files named 'data-002.zip' (4.1 G), 'Table 2 data-001. zip' (3.5 G) and 'Table 3 data-003.zip' (4.6 G). 
 
 Step 2: Put the data folders at corresponding locations
 
