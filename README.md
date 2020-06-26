@@ -1,5 +1,9 @@
 # Correlations Between Deep Neural Network Model Coverage Criteria and Model Quality
 
+```
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3908793.svg)](https://doi.org/10.5281/zenodo.3908793)
+```
+
 Codes for paper: Correlations Between Deep Neural Network Model Coverage Criteria and Model Quality
 
 
