@@ -10,23 +10,22 @@ Codes for paper: Correlations Between Deep Neural Network Model Coverage Criteri
 
 The experiments are run by python 3.6 or 3.7 under Ubuntu 18.04.  
 
-Way 1: Install the required dependencies according to the [requirements.txt](https://github.com/DNNTesting/CovTesting/blob/master/requirements.txt) file. 
-
-```$ pip install -r requirements.txt```
-
-Way 2: Get environment with preinstalled dependencies using docker: 
+Way 1: Get environment with preinstalled dependencies using docker: 
 
 ```python
 # Get the environment (OS) to run the code
 $ docker pull hao359510974/covtesting2:latest
-$ docker run -it --mount type=bind,src=SRC_PATH,dst=DEST_PATH hao359510974/covtesting2:latest
-# Where SRC_PATH and DEST_PATH must be absolute paths; SRC_PATH is the path on your host machine, and DEST_PATH is the file path for where you want it to be stored in the Docker.
+$ docker run -it --mount type=bind,src=SRC_PATH,dst=DEST_PATH hao359510974/covtesting2:latest # Where SRC_PATH and DEST_PATH must be absolute paths; SRC_PATH is the path on your host machine, and DEST_PATH is the file path for where you want it to be stored in the Docker.
     
 #Experiments (take Comparison of Attack Images (Table 2) as an example, for other experiments just use other folders.)
 $ cd /data/Comparison\ of\ Attack\ Images/
 
 Then run commands according to 'README' file to get corresponding results. 
 ```
+
+Way 2: We also provide [requirements.txt](https://github.com/DNNTesting/CovTesting/blob/master/requirements.txt) file for users who want to establish the environment on their own machine:
+
+```$ pip install -r requirements.txt```
 
 ## Structure:
 
