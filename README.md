@@ -15,7 +15,7 @@ Way 1: Get environment with preinstalled dependencies using docker:
 ```python
 # Get the environment (OS) to run the code
 $ docker pull hao359510974/covtesting2:latest
-$ docker run -it --mount type=bind,src=SRC_PATH,dst=DEST_PATH hao359510974/covtesting2:latest # Where SRC_PATH and DEST_PATH must be absolute paths; SRC_PATH is the path on your host machine, and DEST_PATH is the file path for where you want it to be stored in the Docker.
+$ docker run -it --mount type=bind,src=SRC_PATH,dst=DEST_PATH hao359510974/covtesting2:latest # Where SRC_PATH and DEST_PATH must be absolute paths; SRC_PATH is the path on your host machine, and DEST_PATH is the file path for where you want it to be stored in the Docker, such as '/data'.
     
 #Experiments (take Comparison of Attack Images (Table 2) as an example, for other experiments just use other folders.)
 $ cd /data/Comparison\ of\ Attack\ Images/
