@@ -29,8 +29,8 @@ Way 2: We also provide [requirements.txt](https://github.com/DNNTesting/CovTesti
 
 ## Structure:
 
-```python
-- code/                                              # Source code for Covtesting
+```
+- code/                                              	# Source code for Covtesting
 	- Comparison of Attack Images/                   # Codes folder for comparison of attack images (Table 2)
 	- Correlation                                    # Codes folder for calculation of correlation (Figure 4 and figure 8)
 	- Coverage VS. # Adv Examples                    # Codes folder for coverage VS. # adv examples (Figure 6 and figure 7)
