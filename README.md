@@ -30,19 +30,19 @@ Way 2: We also provide [requirements.txt](https://github.com/DNNTesting/CovTesti
 ## Structure:
 
 ```
-- code/                                              	# Source code for Covtesting
+- code/                                                  # Source code for Covtesting
 	- Comparison of Attack Images/                   # Codes folder for comparison of attack images (Table 2)
 	- Correlation                                    # Codes folder for calculation of correlation (Figure 4 and figure 8)
 	- Coverage VS. # Adv Examples                    # Codes folder for coverage VS. # adv examples (Figure 6 and figure 7)
 	- Coverage and Robustness VS. Training Datasets  # Codes folder for coverage and robustness VS. training datasets (Figure 2 and figure 3)
 	- Model Accuracy under Different Scenarios       # Codes folder for model accuracy under different scenarios (Table 3)
 	- data                                           # Reserved data folder for 'Correlation', 'Coverage VS. # Adv Examples' and 'Coverage and Robustness VS. Training Datasets'
-- CONTACT                                            # Contact information of authors
-- LICENSE                                            # Our code is released under the MIT license
-- README                                             # The README.md file
-- esecfse2020-paper53.pdfA                           # A copy of our accepted paper
-- index                                              # The DOI of codes and data
-- requirements.txt                                   # Required dependencies
+- CONTACT                                                # Contact information of authors
+- LICENSE                                                # Our code is released under the MIT license
+- README                                                 # The README.md file
+- esecfse2020-paper53.pdfA                               # A copy of our accepted paper
+- index                                                  # The DOI of codes and data
+- requirements.txt                                       # Required dependencies
 ```
 
 
